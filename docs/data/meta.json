@@ -1,0 +1,6198 @@
+{
+  "generatedAt": "2026-08-25T08:37:37.575Z",
+  "bbox": [
+    19.204163,
+    51.64314,
+    19.763,
+    51.91026
+  ],
+  "badgeBands": [
+    [
+      13,
+      13.6
+    ],
+    [
+      13.6,
+      14.4
+    ],
+    [
+      14.4,
+      15.5
+    ],
+    [
+      15.5,
+      16.8
+    ],
+    [
+      16.8,
+      22
+    ]
+  ],
+  "modes": [
+    {
+      "mode": "bus",
+      "label": "buses",
+      "color": "#0059a9"
+    },
+    {
+      "mode": "tram",
+      "label": "trams",
+      "color": "#d6212b"
+    }
+  ],
+  "lines": [
+    {
+      "line": "6.",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "ZGIERZ STAFFA",
+          "variants": 3,
+          "tripCount": 88,
+          "stops": 52,
+          "lengthKm": 25.74,
+          "stats": {
+            "observations": 765,
+            "matched": 765,
+            "noCandidates": 0,
+            "viterbiBreaks": 1,
+            "bridged": 0,
+            "rawStretchCount": 1,
+            "rawMeters": 20,
+            "meanError": 2.200296705525343,
+            "roundaboutSegs": 91,
+            "extStart": 0,
+            "extEnd": 462
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "DW. ŁÓDŹ KALISKA",
+          "variants": 3,
+          "tripCount": 88,
+          "stops": 53,
+          "lengthKm": 25.02,
+          "stats": {
+            "observations": 662,
+            "matched": 662,
+            "noCandidates": 0,
+            "viterbiBreaks": 1,
+            "bridged": 0,
+            "rawStretchCount": 1,
+            "rawMeters": 20,
+            "meanError": 2.441389693186915,
+            "roundaboutSegs": 160,
+            "extStart": 626,
+            "extEnd": 569
+          }
+        }
+      ]
+    },
+    {
+      "line": "50A",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "PL. NIEPODLEGŁOŚCI",
+          "variants": 12,
+          "tripCount": 40,
+          "stops": 25,
+          "lengthKm": 12.28,
+          "stats": {
+            "observations": 472,
+            "matched": 472,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.0200886992408433,
+            "roundaboutSegs": 27,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "RZGÓW",
+          "variants": 9,
+          "tripCount": 40,
+          "stops": 24,
+          "lengthKm": 12.39,
+          "stats": {
+            "observations": 548,
+            "matched": 548,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.246844005541396,
+            "roundaboutSegs": 26,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "50B",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "PL. NIEPODLEGŁOŚCI",
+          "variants": 6,
+          "tripCount": 16,
+          "stops": 27,
+          "lengthKm": 14.07,
+          "stats": {
+            "observations": 521,
+            "matched": 521,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.054884979966907,
+            "roundaboutSegs": 27,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "CT PTAK MANDORIA (RZGÓW)",
+          "variants": 6,
+          "tripCount": 16,
+          "stops": 26,
+          "lengthKm": 14.05,
+          "stats": {
+            "observations": 630,
+            "matched": 630,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.4727181067561244,
+            "roundaboutSegs": 26,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "51A",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "ŁAGIEWNIKI",
+          "variants": 12,
+          "tripCount": 81,
+          "stops": 20,
+          "lengthKm": 10.3,
+          "stats": {
+            "observations": 460,
+            "matched": 460,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.0247851068348919,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "DW. ŁÓDŹ FABRYCZNA",
+          "variants": 9,
+          "tripCount": 78,
+          "stops": 18,
+          "lengthKm": 9.59,
+          "stats": {
+            "observations": 456,
+            "matched": 456,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.1512104523424678,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 258
+          }
+        }
+      ]
+    },
+    {
+      "line": "51B",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "ŁÓDŹ SKOTNIKI",
+          "variants": 6,
+          "tripCount": 21,
+          "stops": 26,
+          "lengthKm": 14.04,
+          "stats": {
+            "observations": 561,
+            "matched": 561,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 0.9760637511758935,
+            "roundaboutSegs": 4,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "DW. ŁÓDŹ FABRYCZNA",
+          "variants": 6,
+          "tripCount": 22,
+          "stops": 25,
+          "lengthKm": 13.58,
+          "stats": {
+            "observations": 570,
+            "matched": 570,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.1922076407770639,
+            "roundaboutSegs": 24,
+            "extStart": 0,
+            "extEnd": 258
+          }
+        }
+      ]
+    },
+    {
+      "line": "52",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "DW. ŁÓDŹ KALISKA",
+          "variants": 15,
+          "tripCount": 156,
+          "stops": 19,
+          "lengthKm": 9.68,
+          "stats": {
+            "observations": 449,
+            "matched": 449,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.5715189226946005,
+            "roundaboutSegs": 27,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "KOMORNIKI",
+          "variants": 9,
+          "tripCount": 159,
+          "stops": 19,
+          "lengthKm": 9.37,
+          "stats": {
+            "observations": 471,
+            "matched": 471,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.2733161724796913,
+            "roundaboutSegs": 2,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "53A",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "NOWOSOLNA",
+          "variants": 9,
+          "tripCount": 145,
+          "stops": 20,
+          "lengthKm": 10.77,
+          "stats": {
+            "observations": 430,
+            "matched": 430,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.3348566912073068,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "DW. ŁÓDŹ FABRYCZNA",
+          "variants": 12,
+          "tripCount": 117,
+          "stops": 18,
+          "lengthKm": 10.25,
+          "stats": {
+            "observations": 413,
+            "matched": 413,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.4416913098191138,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 258
+          }
+        }
+      ]
+    },
+    {
+      "line": "53B",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "BRZEZINY GŁOWACKIEGO",
+          "variants": 9,
+          "tripCount": 38,
+          "stops": 34,
+          "lengthKm": 23.81,
+          "stats": {
+            "observations": 587,
+            "matched": 587,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.5134065865847592,
+            "roundaboutSegs": 15,
+            "extStart": 0,
+            "extEnd": 233
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "DW. ŁÓDŹ FABRYCZNA",
+          "variants": 9,
+          "tripCount": 37,
+          "stops": 34,
+          "lengthKm": 24.09,
+          "stats": {
+            "observations": 539,
+            "matched": 539,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.7413412754269726,
+            "roundaboutSegs": 16,
+            "extStart": 0,
+            "extEnd": 258
+          }
+        }
+      ]
+    },
+    {
+      "line": "53C",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "DW. ŁÓDŹ FABRYCZNA",
+          "headsign": "DW. ŁÓDŹ FABRYCZNA",
+          "variants": 3,
+          "tripCount": 25,
+          "stops": 21,
+          "lengthKm": 11.3,
+          "stats": {
+            "observations": 465,
+            "matched": 465,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.470174095336942,
+            "roundaboutSegs": 3,
+            "extStart": 0,
+            "extEnd": 258
+          }
+        }
+      ]
+    },
+    {
+      "line": "54B",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "ROD POLANKA",
+          "variants": 9,
+          "tripCount": 70,
+          "stops": 33,
+          "lengthKm": 17.73,
+          "stats": {
+            "observations": 353,
+            "matched": 353,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.9729412341131094,
+            "roundaboutSegs": 34,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "PL.MIKULSKIEGO",
+          "variants": 12,
+          "tripCount": 72,
+          "stops": 30,
+          "lengthKm": 16.76,
+          "stats": {
+            "observations": 375,
+            "matched": 375,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 2.2896834506632375,
+            "roundaboutSegs": 37,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "55A",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "DW. ŁÓDŹ DĄBROWA",
+          "variants": 12,
+          "tripCount": 96,
+          "stops": 41,
+          "lengthKm": 17.46,
+          "stats": {
+            "observations": 690,
+            "matched": 690,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.9966859750193695,
+            "roundaboutSegs": 22,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "RETKINIA KUSOCIŃSKIEGO",
+          "variants": 15,
+          "tripCount": 94,
+          "stops": 37,
+          "lengthKm": 16.95,
+          "stats": {
+            "observations": 582,
+            "matched": 582,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.5713483502517012,
+            "roundaboutSegs": 16,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "55B",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "CM. ZARZEW",
+          "variants": 9,
+          "tripCount": 11,
+          "stops": 47,
+          "lengthKm": 19.85,
+          "stats": {
+            "observations": 762,
+            "matched": 762,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 2.0361297064377784,
+            "roundaboutSegs": 22,
+            "extStart": 0,
+            "extEnd": 962
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "RETKINIA KUSOCIŃSKIEGO",
+          "variants": 3,
+          "tripCount": 16,
+          "stops": 43,
+          "lengthKm": 19.65,
+          "stats": {
+            "observations": 718,
+            "matched": 718,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.495377594110492,
+            "roundaboutSegs": 16,
+            "extStart": 315,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "55C",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "PARK MŁYNEK",
+          "variants": 3,
+          "tripCount": 47,
+          "stops": 45,
+          "lengthKm": 19.43,
+          "stats": {
+            "observations": 741,
+            "matched": 741,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.9788961070084776,
+            "roundaboutSegs": 22,
+            "extStart": 0,
+            "extEnd": 120
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "RETKINIA KUSOCIŃSKIEGO",
+          "variants": 6,
+          "tripCount": 47,
+          "stops": 40,
+          "lengthKm": 18.65,
+          "stats": {
+            "observations": 674,
+            "matched": 674,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.5931438778408966,
+            "roundaboutSegs": 16,
+            "extStart": 183,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "56",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "CT PTAK MANDORIA (RZGÓW)",
+          "variants": 12,
+          "tripCount": 17,
+          "stops": 22,
+          "lengthKm": 14.6,
+          "stats": {
+            "observations": 382,
+            "matched": 382,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 2.792998309756848,
+            "roundaboutSegs": 16,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "PIASTÓW KURAK",
+          "variants": 9,
+          "tripCount": 17,
+          "stops": 22,
+          "lengthKm": 12.87,
+          "stats": {
+            "observations": 368,
+            "matched": 368,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.7307332205898767,
+            "roundaboutSegs": 15,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "57",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "MARYSIN STADION",
+          "variants": 12,
+          "tripCount": 159,
+          "stops": 33,
+          "lengthKm": 13,
+          "stats": {
+            "observations": 298,
+            "matched": 298,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 2.2279164127091837,
+            "roundaboutSegs": 2,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "PIASTÓW KURAK",
+          "variants": 9,
+          "tripCount": 157,
+          "stops": 33,
+          "lengthKm": 13.73,
+          "stats": {
+            "observations": 302,
+            "matched": 302,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 2.3150082913204604,
+            "roundaboutSegs": 30,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "58A",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "JANÓW PRZEZ CKD",
+          "variants": 12,
+          "tripCount": 20,
+          "stops": 25,
+          "lengthKm": 13.12,
+          "stats": {
+            "observations": 319,
+            "matched": 319,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 2.560967131084103,
+            "roundaboutSegs": 36,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "DW. ŁÓDŹ FABRYCZNA PRZEZ CKD",
+          "variants": 9,
+          "tripCount": 21,
+          "stops": 30,
+          "lengthKm": 14.18,
+          "stats": {
+            "observations": 441,
+            "matched": 441,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 2.210158845088733,
+            "roundaboutSegs": 25,
+            "extStart": 0,
+            "extEnd": 1158
+          }
+        }
+      ]
+    },
+    {
+      "line": "58B",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "JANÓW PRZEZ PODGÓRZE",
+          "variants": 13,
+          "tripCount": 24,
+          "stops": 23,
+          "lengthKm": 12.85,
+          "stats": {
+            "observations": 327,
+            "matched": 327,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 2.60977550966081,
+            "roundaboutSegs": 35,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "DW. ŁÓDŹ FABRYCZNA PRZEZ PODGÓRZE",
+          "variants": 18,
+          "tripCount": 22,
+          "stops": 29,
+          "lengthKm": 13.65,
+          "stats": {
+            "observations": 416,
+            "matched": 416,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.9461200868118729,
+            "roundaboutSegs": 31,
+            "extStart": 0,
+            "extEnd": 1158
+          }
+        }
+      ]
+    },
+    {
+      "line": "59",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "RADOGOSZCZ WSCHÓD",
+          "variants": 9,
+          "tripCount": 162,
+          "stops": 17,
+          "lengthKm": 7.79,
+          "stats": {
+            "observations": 186,
+            "matched": 186,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 2.3736808736681643,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "LEGIONÓW GDAŃSKA",
+          "variants": 6,
+          "tripCount": 162,
+          "stops": 16,
+          "lengthKm": 7.18,
+          "stats": {
+            "observations": 200,
+            "matched": 200,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 3.4615233841875663,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 262
+          }
+        }
+      ]
+    },
+    {
+      "line": "60A",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "IMIELNIK NOWY",
+          "variants": 15,
+          "tripCount": 96,
+          "stops": 21,
+          "lengthKm": 12.3,
+          "stats": {
+            "observations": 236,
+            "matched": 236,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.5943185667335829,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "CH TULIPAN",
+          "variants": 9,
+          "tripCount": 94,
+          "stops": 19,
+          "lengthKm": 12.84,
+          "stats": {
+            "observations": 332,
+            "matched": 332,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.798830401887408,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "60B",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "MICHAŁÓWEK DOBRA",
+          "variants": 9,
+          "tripCount": 11,
+          "stops": 28,
+          "lengthKm": 18.28,
+          "stats": {
+            "observations": 365,
+            "matched": 365,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.9730698492331906,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "CH TULIPAN",
+          "variants": 6,
+          "tripCount": 10,
+          "stops": 26,
+          "lengthKm": 18.71,
+          "stats": {
+            "observations": 546,
+            "matched": 546,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.515028206278135,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "60C",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "STRYKÓW DWORZEC PKP",
+          "variants": 12,
+          "tripCount": 8,
+          "stops": 30,
+          "lengthKm": 24.22,
+          "stats": {
+            "observations": 407,
+            "matched": 407,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 2.1685040467509005,
+            "roundaboutSegs": 21,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "CH TULIPAN",
+          "variants": 18,
+          "tripCount": 8,
+          "stops": 28,
+          "lengthKm": 24.65,
+          "stats": {
+            "observations": 566,
+            "matched": 566,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.9699066250608397,
+            "roundaboutSegs": 58,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "60D",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "MARYSIN TĘCZOWA",
+          "variants": 9,
+          "tripCount": 39,
+          "stops": 20,
+          "lengthKm": 10.38,
+          "stats": {
+            "observations": 276,
+            "matched": 276,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 2.070908236767692,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "CH TULIPAN",
+          "variants": 6,
+          "tripCount": 39,
+          "stops": 17,
+          "lengthKm": 10.21,
+          "stats": {
+            "observations": 383,
+            "matched": 383,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.6399284673401044,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "61",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "ZGIERZ STAFFA",
+          "variants": 3,
+          "tripCount": 68,
+          "stops": 40,
+          "lengthKm": 19.95,
+          "stats": {
+            "observations": 838,
+            "matched": 838,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 0.9686601125622478,
+            "roundaboutSegs": 50,
+            "extStart": 681,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "DW. ŁÓDŹ FABRYCZNA",
+          "variants": 3,
+          "tripCount": 68,
+          "stops": 40,
+          "lengthKm": 19.66,
+          "stats": {
+            "observations": 946,
+            "matched": 946,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.124806945761481,
+            "roundaboutSegs": 27,
+            "extStart": 0,
+            "extEnd": 258
+          }
+        }
+      ]
+    },
+    {
+      "line": "62",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "DW. ŁÓDŹ CHOJNY",
+          "variants": 9,
+          "tripCount": 153,
+          "stops": 23,
+          "lengthKm": 11.18,
+          "stats": {
+            "observations": 400,
+            "matched": 400,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.9400027785182163,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "BIONANOPARK",
+          "variants": 12,
+          "tripCount": 154,
+          "stops": 22,
+          "lengthKm": 9.35,
+          "stats": {
+            "observations": 394,
+            "matched": 394,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.5107310844583997,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "63",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "DW. ŁÓDŹ CHOJNY PRZEZ STARE ROKICIE",
+          "variants": 9,
+          "tripCount": 80,
+          "stops": 34,
+          "lengthKm": 14.38,
+          "stats": {
+            "observations": 522,
+            "matched": 522,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.400561115124469,
+            "roundaboutSegs": 27,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "PL. NIEPODLEGŁOŚCI PRZEZ STARE ROKICIE",
+          "variants": 12,
+          "tripCount": 78,
+          "stops": 34,
+          "lengthKm": 14.43,
+          "stats": {
+            "observations": 403,
+            "matched": 403,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.6713963182913267,
+            "roundaboutSegs": 2,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "64A",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "ZACHODNIA LIMANOWSKIEGO",
+          "variants": 6,
+          "tripCount": 16,
+          "stops": 31,
+          "lengthKm": 15.44,
+          "stats": {
+            "observations": 590,
+            "matched": 590,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.7555039296818988,
+            "roundaboutSegs": 24,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "CM. ZARZEW",
+          "variants": 6,
+          "tripCount": 16,
+          "stops": 31,
+          "lengthKm": 14.78,
+          "stats": {
+            "observations": 587,
+            "matched": 587,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.7079203625064572,
+            "roundaboutSegs": 23,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "64B",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "ZACHODNIA LIMANOWSKIEGO",
+          "variants": 9,
+          "tripCount": 141,
+          "stops": 31,
+          "lengthKm": 15.76,
+          "stats": {
+            "observations": 621,
+            "matched": 621,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.7356122762729997,
+            "roundaboutSegs": 40,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "WIDZEW CZAJKOWSKIEGO",
+          "variants": 9,
+          "tripCount": 142,
+          "stops": 32,
+          "lengthKm": 15.6,
+          "stats": {
+            "observations": 653,
+            "matched": 653,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.6300672323142786,
+            "roundaboutSegs": 39,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "65A",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "LOTNISKO",
+          "variants": 12,
+          "tripCount": 157,
+          "stops": 44,
+          "lengthKm": 21.49,
+          "stats": {
+            "observations": 773,
+            "matched": 773,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 2.233156397059838,
+            "roundaboutSegs": 26,
+            "extStart": 670,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "RADOGOSZCZ WSCHÓD",
+          "variants": 9,
+          "tripCount": 153,
+          "stops": 45,
+          "lengthKm": 21.04,
+          "stats": {
+            "observations": 675,
+            "matched": 675,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 2.374354834206799,
+            "roundaboutSegs": 32,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "65B",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "SORTOWNIA",
+          "variants": 6,
+          "tripCount": 7,
+          "stops": 44,
+          "lengthKm": 21.91,
+          "stats": {
+            "observations": 794,
+            "matched": 794,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 2.1978634981111096,
+            "roundaboutSegs": 26,
+            "extStart": 670,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "RADOGOSZCZ WSCHÓD",
+          "variants": 6,
+          "tripCount": 7,
+          "stops": 46,
+          "lengthKm": 21.56,
+          "stats": {
+            "observations": 701,
+            "matched": 701,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 2.3466801328830313,
+            "roundaboutSegs": 32,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "66",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "MODRZEW",
+          "variants": 9,
+          "tripCount": 65,
+          "stops": 16,
+          "lengthKm": 8.38,
+          "stats": {
+            "observations": 290,
+            "matched": 290,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.6286201723043352,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "RONDO POWSTAŃCÓW 1863R.",
+          "variants": 9,
+          "tripCount": 65,
+          "stops": 14,
+          "lengthKm": 8.31,
+          "stats": {
+            "observations": 328,
+            "matched": 328,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.3122285345387052,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "67",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "DW. ŁÓDŹ FABRYCZNA",
+          "variants": 6,
+          "tripCount": 8,
+          "stops": 19,
+          "lengthKm": 6.84,
+          "stats": {
+            "observations": 184,
+            "matched": 184,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.9803605734332193,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "67 ZJAZD DO NOWE SADY",
+          "variants": 6,
+          "tripCount": 8,
+          "stops": 17,
+          "lengthKm": 7.31,
+          "stats": {
+            "observations": 295,
+            "matched": 295,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.652572086075559,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "68",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "PL. NIEPODLEGŁOŚCI",
+          "variants": 12,
+          "tripCount": 82,
+          "stops": 36,
+          "lengthKm": 18.75,
+          "stats": {
+            "observations": 610,
+            "matched": 610,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.4912362553294278,
+            "roundaboutSegs": 119,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "RETKINIA",
+          "variants": 9,
+          "tripCount": 83,
+          "stops": 37,
+          "lengthKm": 18.53,
+          "stats": {
+            "observations": 681,
+            "matched": 681,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.3930232140197563,
+            "roundaboutSegs": 93,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "69A",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "RETKINIA KUSOCIŃSKIEGO PRZEZ OSSENDOWSKIEGO",
+          "variants": 9,
+          "tripCount": 111,
+          "stops": 45,
+          "lengthKm": 20.48,
+          "stats": {
+            "observations": 885,
+            "matched": 885,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.6940867082112387,
+            "roundaboutSegs": 29,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "DW. ŁÓDŹ WIDZEW PRZEZ OSSENDOWSKIEGO",
+          "variants": 6,
+          "tripCount": 105,
+          "stops": 46,
+          "lengthKm": 20.94,
+          "stats": {
+            "observations": 862,
+            "matched": 862,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.9188585597778232,
+            "roundaboutSegs": 64,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "69B",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "RETKINIA KUSOCIŃSKIEGO",
+          "variants": 9,
+          "tripCount": 83,
+          "stops": 42,
+          "lengthKm": 18.71,
+          "stats": {
+            "observations": 865,
+            "matched": 865,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.591851193975671,
+            "roundaboutSegs": 29,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "DW. ŁÓDŹ WIDZEW",
+          "variants": 12,
+          "tripCount": 96,
+          "stops": 43,
+          "lengthKm": 19.27,
+          "stats": {
+            "observations": 840,
+            "matched": 840,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.9017073873907568,
+            "roundaboutSegs": 64,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "70",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "INSTYTUT CZMP",
+          "variants": 21,
+          "tripCount": 181,
+          "stops": 32,
+          "lengthKm": 15.42,
+          "stats": {
+            "observations": 590,
+            "matched": 590,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 2.2582759561614405,
+            "roundaboutSegs": 33,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "RONDO POWSTAŃCÓW 1863R.",
+          "variants": 15,
+          "tripCount": 184,
+          "stops": 34,
+          "lengthKm": 14.97,
+          "stats": {
+            "observations": 528,
+            "matched": 528,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.9144371553425907,
+            "roundaboutSegs": 8,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "71A",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "PARK PODOLSKI PRZEZ BRÓJECKA",
+          "variants": 12,
+          "tripCount": 14,
+          "stops": 39,
+          "lengthKm": 22.94,
+          "stats": {
+            "observations": 723,
+            "matched": 723,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 2.1749327334983533,
+            "roundaboutSegs": 57,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "DW. ŁÓDŹ CHOJNY PRZEZ BRÓJECKA",
+          "variants": 12,
+          "tripCount": 12,
+          "stops": 36,
+          "lengthKm": 20.91,
+          "stats": {
+            "observations": 528,
+            "matched": 528,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.9486272877941282,
+            "roundaboutSegs": 63,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "71B",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "PARK PODOLSKI PRZEZ KOLUMNY",
+          "variants": 12,
+          "tripCount": 51,
+          "stops": 39,
+          "lengthKm": 22.47,
+          "stats": {
+            "observations": 663,
+            "matched": 663,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 2.2201534072842346,
+            "roundaboutSegs": 58,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "DW. ŁÓDŹ CHOJNY PRZEZ KOLUMNY",
+          "variants": 15,
+          "tripCount": 51,
+          "stops": 36,
+          "lengthKm": 19.74,
+          "stats": {
+            "observations": 457,
+            "matched": 457,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.9973281145299453,
+            "roundaboutSegs": 39,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "72A",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "HUTA JAGODNICA PRZEZ OLECHOWSKA",
+          "variants": 15,
+          "tripCount": 145,
+          "stops": 57,
+          "lengthKm": 24.63,
+          "stats": {
+            "observations": 624,
+            "matched": 624,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 2.2231603276627117,
+            "roundaboutSegs": 25,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "JANÓW PRZEZ OLECHOWSKA",
+          "variants": 12,
+          "tripCount": 148,
+          "stops": 56,
+          "lengthKm": 23.89,
+          "stats": {
+            "observations": 455,
+            "matched": 455,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 2.419293969864218,
+            "roundaboutSegs": 16,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "72B",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "HUTA JAGODNICA PRZEZ DELL",
+          "variants": 9,
+          "tripCount": 17,
+          "stops": 56,
+          "lengthKm": 27.57,
+          "stats": {
+            "observations": 604,
+            "matched": 604,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 2.3881289287411778,
+            "roundaboutSegs": 58,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "JANÓW PRZEZ DELL",
+          "variants": 15,
+          "tripCount": 14,
+          "stops": 55,
+          "lengthKm": 27.01,
+          "stats": {
+            "observations": 503,
+            "matched": 503,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 2.1661406793258853,
+            "roundaboutSegs": 70,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "73",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "RADOGOSZCZ ZACHÓD",
+          "variants": 15,
+          "tripCount": 146,
+          "stops": 16,
+          "lengthKm": 8.18,
+          "stats": {
+            "observations": 204,
+            "matched": 204,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.7460851625303746,
+            "roundaboutSegs": 0,
+            "extStart": 983,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "KOZINY",
+          "variants": 15,
+          "tripCount": 149,
+          "stops": 20,
+          "lengthKm": 10.69,
+          "stats": {
+            "observations": 225,
+            "matched": 225,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 2.684390722160881,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "75A",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "DW. ŁÓDŹ WIDZEW PRZEZ EKONOMICZNA",
+          "variants": 12,
+          "tripCount": 59,
+          "stops": 51,
+          "lengthKm": 25.58,
+          "stats": {
+            "observations": 817,
+            "matched": 817,
+            "noCandidates": 0,
+            "viterbiBreaks": 1,
+            "bridged": 0,
+            "rawStretchCount": 1,
+            "rawMeters": 20,
+            "meanError": 2.19188788118475,
+            "roundaboutSegs": 36,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "CHOCIANOWICE IKEA PRZEZ EKONOMICZNA",
+          "variants": 12,
+          "tripCount": 59,
+          "stops": 51,
+          "lengthKm": 24.21,
+          "stats": {
+            "observations": 688,
+            "matched": 688,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 2.1886107351486896,
+            "roundaboutSegs": 0,
+            "extStart": 188,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "75B",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "DW. ŁÓDŹ WIDZEW PRZEZ PRZESTRZENNA",
+          "variants": 15,
+          "tripCount": 60,
+          "stops": 48,
+          "lengthKm": 24.72,
+          "stats": {
+            "observations": 817,
+            "matched": 817,
+            "noCandidates": 0,
+            "viterbiBreaks": 1,
+            "bridged": 0,
+            "rawStretchCount": 1,
+            "rawMeters": 20,
+            "meanError": 2.1842726285403096,
+            "roundaboutSegs": 36,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "CHOCIANOWICE IKEA PRZEZ PRZESTRZENNA",
+          "variants": 15,
+          "tripCount": 61,
+          "stops": 49,
+          "lengthKm": 23.34,
+          "stats": {
+            "observations": 688,
+            "matched": 688,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 2.0981953038480943,
+            "roundaboutSegs": 0,
+            "extStart": 188,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "76",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "CM. SZCZECIŃSKA",
+          "variants": 12,
+          "tripCount": 160,
+          "stops": 29,
+          "lengthKm": 13.54,
+          "stats": {
+            "observations": 529,
+            "matched": 529,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.9532385973536774,
+            "roundaboutSegs": 76,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "RETKINIA KUSOCIŃSKIEGO",
+          "variants": 9,
+          "tripCount": 154,
+          "stops": 29,
+          "lengthKm": 13.69,
+          "stats": {
+            "observations": 503,
+            "matched": 503,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 2.5183078944200035,
+            "roundaboutSegs": 96,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "77",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "DW. ŁÓDŹ FABRYCZNA",
+          "variants": 9,
+          "tripCount": 76,
+          "stops": 23,
+          "lengthKm": 10.88,
+          "stats": {
+            "observations": 236,
+            "matched": 236,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 2.1716384257678683,
+            "roundaboutSegs": 2,
+            "extStart": 0,
+            "extEnd": 271
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "STARE ROKICIE",
+          "variants": 15,
+          "tripCount": 75,
+          "stops": 25,
+          "lengthKm": 11.95,
+          "stats": {
+            "observations": 190,
+            "matched": 190,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.6611404647136887,
+            "roundaboutSegs": 15,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "78",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "ALEKSANDRÓW ŁÓDZKI TARGOWY RYNEK",
+          "variants": 6,
+          "tripCount": 125,
+          "stops": 21,
+          "lengthKm": 10.5,
+          "stats": {
+            "observations": 325,
+            "matched": 325,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 2.0729182145996066,
+            "roundaboutSegs": 59,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "DW. ŁÓDŹ ŻABIENIEC",
+          "variants": 6,
+          "tripCount": 125,
+          "stops": 19,
+          "lengthKm": 10.47,
+          "stats": {
+            "observations": 316,
+            "matched": 316,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 2.3715890591266096,
+            "roundaboutSegs": 95,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "80A",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "JANÓW PRZEZ ZOO ORIENTARIUM",
+          "variants": 6,
+          "tripCount": 66,
+          "stops": 49,
+          "lengthKm": 23.32,
+          "stats": {
+            "observations": 850,
+            "matched": 850,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.808924721301842,
+            "roundaboutSegs": 33,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "RETKINIA PRZEZ ZOO ORIENTARIUM",
+          "variants": 3,
+          "tripCount": 55,
+          "stops": 47,
+          "lengthKm": 22.3,
+          "stats": {
+            "observations": 647,
+            "matched": 647,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.8750299972040583,
+            "roundaboutSegs": 16,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "80B",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "JANÓW",
+          "variants": 12,
+          "tripCount": 90,
+          "stops": 47,
+          "lengthKm": 20.93,
+          "stats": {
+            "observations": 834,
+            "matched": 834,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.737717499477731,
+            "roundaboutSegs": 33,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "RETKINIA",
+          "variants": 12,
+          "tripCount": 99,
+          "stops": 46,
+          "lengthKm": 20.07,
+          "stats": {
+            "observations": 607,
+            "matched": 607,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.7844229135197511,
+            "roundaboutSegs": 16,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "81A",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "CM. SZCZECIŃSKA",
+          "variants": 9,
+          "tripCount": 105,
+          "stops": 32,
+          "lengthKm": 14.08,
+          "stats": {
+            "observations": 507,
+            "matched": 507,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.848496927799164,
+            "roundaboutSegs": 116,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "SIKAWA CENTRUM HANDLOWE",
+          "variants": 9,
+          "tripCount": 107,
+          "stops": 32,
+          "lengthKm": 16.27,
+          "stats": {
+            "observations": 667,
+            "matched": 667,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.81750483217458,
+            "roundaboutSegs": 45,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "81B",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "RONDO PILECKIEGO",
+          "variants": 9,
+          "tripCount": 68,
+          "stops": 27,
+          "lengthKm": 11.21,
+          "stats": {
+            "observations": 450,
+            "matched": 450,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.5682652350237773,
+            "roundaboutSegs": 6,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "SIKAWA CENTRUM HANDLOWE",
+          "variants": 9,
+          "tripCount": 69,
+          "stops": 27,
+          "lengthKm": 13.54,
+          "stats": {
+            "observations": 600,
+            "matched": 600,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.4403623710337385,
+            "roundaboutSegs": 7,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "82A",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "DW. ŁÓDŹ WIDZEW",
+          "variants": 9,
+          "tripCount": 58,
+          "stops": 24,
+          "lengthKm": 11.3,
+          "stats": {
+            "observations": 328,
+            "matched": 328,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 2.0528821878036103,
+            "roundaboutSegs": 5,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "SĄSIECZNO",
+          "variants": 6,
+          "tripCount": 60,
+          "stops": 25,
+          "lengthKm": 11.53,
+          "stats": {
+            "observations": 346,
+            "matched": 346,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.8675504347327314,
+            "roundaboutSegs": 13,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "82B",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "DW. ŁÓDŹ WIDZEW",
+          "variants": 12,
+          "tripCount": 58,
+          "stops": 31,
+          "lengthKm": 16.41,
+          "stats": {
+            "observations": 319,
+            "matched": 319,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.9861201759068814,
+            "roundaboutSegs": 5,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "STRÓŻA LUDWIKÓW",
+          "variants": 12,
+          "tripCount": 61,
+          "stops": 32,
+          "lengthKm": 16.64,
+          "stats": {
+            "observations": 448,
+            "matched": 448,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.4910301981106981,
+            "roundaboutSegs": 13,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "83",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "WERSALSKA",
+          "variants": 9,
+          "tripCount": 157,
+          "stops": 32,
+          "lengthKm": 12.97,
+          "stats": {
+            "observations": 389,
+            "matched": 389,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 2.2965535889068027,
+            "roundaboutSegs": 87,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "PL. MIKULSKIEGO",
+          "variants": 9,
+          "tripCount": 156,
+          "stops": 36,
+          "lengthKm": 14.26,
+          "stats": {
+            "observations": 415,
+            "matched": 415,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 2.2370918207861794,
+            "roundaboutSegs": 78,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "84A",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "TEOFILÓW ROJNA",
+          "variants": 9,
+          "tripCount": 53,
+          "stops": 12,
+          "lengthKm": 5.84,
+          "stats": {
+            "observations": 159,
+            "matched": 159,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 2.617771430856169,
+            "roundaboutSegs": 15,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "ZIELONY ROMANÓW",
+          "variants": 9,
+          "tripCount": 53,
+          "stops": 10,
+          "lengthKm": 5.92,
+          "stats": {
+            "observations": 183,
+            "matched": 183,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.8741078037730112,
+            "roundaboutSegs": 29,
+            "extStart": 363,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "84B",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "TEOFILÓW ROJNA",
+          "variants": 6,
+          "tripCount": 56,
+          "stops": 12,
+          "lengthKm": 6.76,
+          "stats": {
+            "observations": 158,
+            "matched": 158,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 3.4604267319850472,
+            "roundaboutSegs": 26,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "ALEKSANDRÓW ŁÓDZKI POSELSKA",
+          "variants": 9,
+          "tripCount": 54,
+          "stops": 10,
+          "lengthKm": 6.85,
+          "stats": {
+            "observations": 175,
+            "matched": 175,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 2.743928590937465,
+            "roundaboutSegs": 39,
+            "extStart": 363,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "85A",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "DW. ŁÓDŹ FABRYCZNA",
+          "variants": 6,
+          "tripCount": 4,
+          "stops": 23,
+          "lengthKm": 8.87,
+          "stats": {
+            "observations": 198,
+            "matched": 198,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.7847456339195364,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 700
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "DW. ŁÓDŹ FABRYCZNA",
+          "variants": 9,
+          "tripCount": 3,
+          "stops": 17,
+          "lengthKm": 6.22,
+          "stats": {
+            "observations": 63,
+            "matched": 63,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 2.9178862584598755,
+            "roundaboutSegs": 0,
+            "extStart": 759,
+            "extEnd": 700
+          }
+        }
+      ]
+    },
+    {
+      "line": "85B",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "ARTURÓWEK",
+          "variants": 9,
+          "tripCount": 112,
+          "stops": 21,
+          "lengthKm": 8.67,
+          "stats": {
+            "observations": 216,
+            "matched": 216,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 2.9485247347834607,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "DW. ŁÓDŹ FABRYCZNA",
+          "variants": 9,
+          "tripCount": 112,
+          "stops": 22,
+          "lengthKm": 8.99,
+          "stats": {
+            "observations": 91,
+            "matched": 91,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 2.5854631278102445,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 700
+          }
+        }
+      ]
+    },
+    {
+      "line": "86",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "DW. ŁÓDŹ FABRYCZNA",
+          "variants": 9,
+          "tripCount": 170,
+          "stops": 32,
+          "lengthKm": 11.84,
+          "stats": {
+            "observations": 388,
+            "matched": 388,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 2.262837190371912,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 258
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "RETKINIA KUSOCIŃSKIEGO",
+          "variants": 9,
+          "tripCount": 168,
+          "stops": 25,
+          "lengthKm": 10.7,
+          "stats": {
+            "observations": 418,
+            "matched": 418,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.4040422121708724,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "87A",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "ŻUBARDŹ",
+          "variants": 12,
+          "tripCount": 68,
+          "stops": 25,
+          "lengthKm": 10.3,
+          "stats": {
+            "observations": 223,
+            "matched": 223,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.9498885422205354,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "DOŁY SMUTNA",
+          "variants": 6,
+          "tripCount": 74,
+          "stops": 26,
+          "lengthKm": 10.05,
+          "stats": {
+            "observations": 258,
+            "matched": 258,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 2.0242149873667827,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "87B",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "ŻUBARDŹ",
+          "variants": 12,
+          "tripCount": 67,
+          "stops": 26,
+          "lengthKm": 10.55,
+          "stats": {
+            "observations": 238,
+            "matched": 238,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 2.332735117721823,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "TELEFONICZNA ZAJEZDNIA",
+          "variants": 6,
+          "tripCount": 76,
+          "stops": 27,
+          "lengthKm": 10.26,
+          "stats": {
+            "observations": 269,
+            "matched": 269,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 2.330619779994199,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "88A",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "ŁUKASZEW ZJAZDOWA",
+          "variants": 6,
+          "tripCount": 66,
+          "stops": 17,
+          "lengthKm": 8.03,
+          "stats": {
+            "observations": 352,
+            "matched": 352,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.282161039954071,
+            "roundaboutSegs": 12,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "DW. ŁÓDŹ FABRYCZNA",
+          "variants": 9,
+          "tripCount": 63,
+          "stops": 20,
+          "lengthKm": 8.82,
+          "stats": {
+            "observations": 374,
+            "matched": 374,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.6184474456143847,
+            "roundaboutSegs": 6,
+            "extStart": 0,
+            "extEnd": 1158
+          }
+        }
+      ]
+    },
+    {
+      "line": "88B",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "SKOSZEWY PRZEZ GRABINA",
+          "variants": 6,
+          "tripCount": 10,
+          "stops": 33,
+          "lengthKm": 20.03,
+          "stats": {
+            "observations": 715,
+            "matched": 715,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.4577711850021426,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "DW. ŁÓDŹ FABRYCZNA PRZEZ GRABINA",
+          "variants": 6,
+          "tripCount": 10,
+          "stops": 37,
+          "lengthKm": 20.56,
+          "stats": {
+            "observations": 484,
+            "matched": 484,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 2.0453823933378183,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 1158
+          }
+        }
+      ]
+    },
+    {
+      "line": "88C",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "SKOSZEWY PRZEZ BORCHÓWKA",
+          "variants": 6,
+          "tripCount": 22,
+          "stops": 32,
+          "lengthKm": 18.34,
+          "stats": {
+            "observations": 557,
+            "matched": 557,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.2777242169857217,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "DW. ŁÓDŹ FABRYCZNA PRZEZ BORCHÓWKA",
+          "variants": 6,
+          "tripCount": 22,
+          "stops": 36,
+          "lengthKm": 19.14,
+          "stats": {
+            "observations": 460,
+            "matched": 460,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.9740415440900292,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 1158
+          }
+        }
+      ]
+    },
+    {
+      "line": "88D",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "KALONKA CENTRUM OJCA PIO",
+          "variants": 9,
+          "tripCount": 16,
+          "stops": 21,
+          "lengthKm": 11.39,
+          "stats": {
+            "observations": 510,
+            "matched": 510,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.0485717635539604,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 558
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "DW. ŁÓDŹ FABRYCZNA",
+          "variants": 6,
+          "tripCount": 15,
+          "stops": 25,
+          "lengthKm": 12.17,
+          "stats": {
+            "observations": 370,
+            "matched": 370,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 2.1329233118644413,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 1158
+          }
+        }
+      ]
+    },
+    {
+      "line": "89",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "PL. SŁONECZNY",
+          "variants": 15,
+          "tripCount": 82,
+          "stops": 28,
+          "lengthKm": 14.06,
+          "stats": {
+            "observations": 477,
+            "matched": 477,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 2.5918725779568765,
+            "roundaboutSegs": 45,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "CM. SZCZECIŃSKA",
+          "variants": 12,
+          "tripCount": 83,
+          "stops": 23,
+          "lengthKm": 12.22,
+          "stats": {
+            "observations": 323,
+            "matched": 323,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 3.002432562247982,
+            "roundaboutSegs": 55,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "90",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "DW. ŁÓDŹ OLECHÓW WSCHÓD",
+          "variants": 6,
+          "tripCount": 58,
+          "stops": 15,
+          "lengthKm": 7.39,
+          "stats": {
+            "observations": 221,
+            "matched": 221,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 2.88167007643863,
+            "roundaboutSegs": 9,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "JANÓW",
+          "variants": 6,
+          "tripCount": 58,
+          "stops": 15,
+          "lengthKm": 7.47,
+          "stats": {
+            "observations": 146,
+            "matched": 146,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.8717922476558113,
+            "roundaboutSegs": 23,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "91A",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "NOWOSOLNA",
+          "variants": 12,
+          "tripCount": 48,
+          "stops": 20,
+          "lengthKm": 11.32,
+          "stats": {
+            "observations": 159,
+            "matched": 159,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 3.311898277296912,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "JANÓW",
+          "variants": 9,
+          "tripCount": 47,
+          "stops": 21,
+          "lengthKm": 11.39,
+          "stats": {
+            "observations": 227,
+            "matched": 227,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 2.7440985054001303,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "91B",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "KALONKA CENTRUM OJCA PIO",
+          "variants": 6,
+          "tripCount": 6,
+          "stops": 27,
+          "lengthKm": 16.06,
+          "stats": {
+            "observations": 309,
+            "matched": 309,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 2.1413938087344553,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "JANÓW",
+          "variants": 6,
+          "tripCount": 6,
+          "stops": 28,
+          "lengthKm": 16.23,
+          "stats": {
+            "observations": 390,
+            "matched": 390,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.929491343305017,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "91C",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "SKOSZEWY",
+          "variants": 6,
+          "tripCount": 25,
+          "stops": 30,
+          "lengthKm": 19.29,
+          "stats": {
+            "observations": 276,
+            "matched": 276,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 2.5913319791483347,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "JANÓW",
+          "variants": 6,
+          "tripCount": 25,
+          "stops": 31,
+          "lengthKm": 19.36,
+          "stats": {
+            "observations": 361,
+            "matched": 361,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 2.255032558808086,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "92A",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "PL. NIEPODLEGŁOŚCI",
+          "variants": 12,
+          "tripCount": 87,
+          "stops": 28,
+          "lengthKm": 14.5,
+          "stats": {
+            "observations": 393,
+            "matched": 393,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 2.508713511828187,
+            "roundaboutSegs": 17,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "STRÓŻA KOLUMNY",
+          "variants": 12,
+          "tripCount": 87,
+          "stops": 31,
+          "lengthKm": 15.03,
+          "stats": {
+            "observations": 404,
+            "matched": 404,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 2.720180600961981,
+            "roundaboutSegs": 19,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "92B",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "PL. NIEPODLEGŁOŚCI PRZEZ JĘDRZEJÓW BSH",
+          "variants": 6,
+          "tripCount": 4,
+          "stops": 33,
+          "lengthKm": 18.26,
+          "stats": {
+            "observations": 506,
+            "matched": 506,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 3.1775486526081917,
+            "roundaboutSegs": 18,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "STRÓŻA KOLUMNY PRZEZ JĘDRZEJÓW BSH",
+          "variants": 6,
+          "tripCount": 7,
+          "stops": 36,
+          "lengthKm": 18.8,
+          "stats": {
+            "observations": 520,
+            "matched": 520,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 3.2320448746349215,
+            "roundaboutSegs": 33,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "93",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "INSTYTUT CZMP",
+          "variants": 9,
+          "tripCount": 79,
+          "stops": 19,
+          "lengthKm": 10.5,
+          "stats": {
+            "observations": 393,
+            "matched": 393,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 2.1715309998496077,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "DW. ŁÓDŹ KALISKA",
+          "variants": 9,
+          "tripCount": 78,
+          "stops": 19,
+          "lengthKm": 10.56,
+          "stats": {
+            "observations": 360,
+            "matched": 360,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 2.7258153392692015,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "94",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "RETKINIA",
+          "variants": 6,
+          "tripCount": 66,
+          "stops": 26,
+          "lengthKm": 15.75,
+          "stats": {
+            "observations": 279,
+            "matched": 279,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 2.580842900137899,
+            "roundaboutSegs": 60,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "LUTOMIERSK",
+          "variants": 6,
+          "tripCount": 66,
+          "stops": 32,
+          "lengthKm": 19.39,
+          "stats": {
+            "observations": 276,
+            "matched": 276,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 3.2283047653906505,
+            "roundaboutSegs": 56,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "96",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "JANÓW",
+          "variants": 12,
+          "tripCount": 206,
+          "stops": 47,
+          "lengthKm": 21.41,
+          "stats": {
+            "observations": 778,
+            "matched": 778,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.9751070923777352,
+            "roundaboutSegs": 92,
+            "extStart": 363,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "TEOFILÓW ROJNA",
+          "variants": 12,
+          "tripCount": 205,
+          "stops": 44,
+          "lengthKm": 21.44,
+          "stats": {
+            "observations": 736,
+            "matched": 736,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.8228987310294622,
+            "roundaboutSegs": 74,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "97A",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "ALEKSANDRÓW ŁÓDZKI TARGOWY RYNEK",
+          "variants": 3,
+          "tripCount": 55,
+          "stops": 34,
+          "lengthKm": 21.89,
+          "stats": {
+            "observations": 846,
+            "matched": 846,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 0.9364065727569879,
+            "roundaboutSegs": 63,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "NOWE SADY ZAJEZDNIA",
+          "variants": 3,
+          "tripCount": 55,
+          "stops": 37,
+          "lengthKm": 22.26,
+          "stats": {
+            "observations": 1030,
+            "matched": 1030,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.3262990135496522,
+            "roundaboutSegs": 55,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "97B",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "NIESIĘCIN",
+          "variants": 3,
+          "tripCount": 51,
+          "stops": 24,
+          "lengthKm": 15.22,
+          "stats": {
+            "observations": 539,
+            "matched": 539,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.0961428454908637,
+            "roundaboutSegs": 14,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "NOWE SADY ZAJEZDNIA",
+          "variants": 3,
+          "tripCount": 51,
+          "stops": 27,
+          "lengthKm": 15.75,
+          "stats": {
+            "observations": 640,
+            "matched": 640,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.7059246457269803,
+            "roundaboutSegs": 12,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "99",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "RADOGOSZCZ ZACHÓD",
+          "variants": 9,
+          "tripCount": 157,
+          "stops": 37,
+          "lengthKm": 15.56,
+          "stats": {
+            "observations": 436,
+            "matched": 436,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.940099597865081,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "RETKINIA",
+          "variants": 12,
+          "tripCount": 155,
+          "stops": 37,
+          "lengthKm": 17.04,
+          "stats": {
+            "observations": 458,
+            "matched": 458,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.7888574523574137,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "100",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "ZOO ORIENTARIUM",
+          "variants": 3,
+          "tripCount": 26,
+          "stops": 15,
+          "lengthKm": 7.43,
+          "stats": {
+            "observations": 266,
+            "matched": 266,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.4427400875702916,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 366
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "PIOTRKOWSKA ŁÓDZKA INF. TURYSTYCZNA",
+          "variants": 3,
+          "tripCount": 26,
+          "stops": 11,
+          "lengthKm": 4.5,
+          "stats": {
+            "observations": 131,
+            "matched": 131,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.6101341801250586,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "101",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "MUZEUM KINEMATOGRAFII",
+          "variants": 3,
+          "tripCount": 26,
+          "stops": 21,
+          "lengthKm": 8.92,
+          "stats": {
+            "observations": 129,
+            "matched": 129,
+            "noCandidates": 0,
+            "viterbiBreaks": 1,
+            "bridged": 0,
+            "rawStretchCount": 1,
+            "rawMeters": 20,
+            "meanError": 7.013779333246351,
+            "roundaboutSegs": 13,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "PIOTRKOWSKA ŁÓDZKA INF. TURYSTYCZNA",
+          "variants": 3,
+          "tripCount": 26,
+          "stops": 10,
+          "lengthKm": 4.41,
+          "stats": {
+            "observations": 117,
+            "matched": 117,
+            "noCandidates": 0,
+            "viterbiBreaks": 1,
+            "bridged": 0,
+            "rawStretchCount": 1,
+            "rawMeters": 20,
+            "meanError": 6.960484392111876,
+            "roundaboutSegs": 13,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "201",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "BEDOŃ KOŚCIELNA KOŚCIÓŁ",
+          "variants": 3,
+          "tripCount": 21,
+          "stops": 21,
+          "lengthKm": 10.98,
+          "stats": {
+            "observations": 346,
+            "matched": 346,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.5496187392267082,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "RONDO INWALIDÓW",
+          "variants": 3,
+          "tripCount": 22,
+          "stops": 21,
+          "lengthKm": 10.68,
+          "stats": {
+            "observations": 197,
+            "matched": 197,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.649136657871147,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "202",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "JANÓWKA PRZEZ KRASZEW",
+          "variants": 6,
+          "tripCount": 15,
+          "stops": 30,
+          "lengthKm": 17.44,
+          "stats": {
+            "observations": 360,
+            "matched": 360,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.8781484470919838,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "RONDO INWALIDÓW PRZEZ KRASZEW",
+          "variants": 6,
+          "tripCount": 12,
+          "stops": 30,
+          "lengthKm": 17.25,
+          "stats": {
+            "observations": 171,
+            "matched": 171,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 2.2394026269530602,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "F1",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "DW. ŁÓDŹ DĄBROWA",
+          "variants": 9,
+          "tripCount": 13,
+          "stops": 18,
+          "lengthKm": 8.02,
+          "stats": {
+            "observations": 315,
+            "matched": 315,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.8429647242281764,
+            "roundaboutSegs": 39,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "F1 ZJAZD DO NOWE SADY",
+          "variants": 9,
+          "tripCount": 9,
+          "stops": 30,
+          "lengthKm": 13.34,
+          "stats": {
+            "observations": 489,
+            "matched": 489,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.9498273204511274,
+            "roundaboutSegs": 67,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "G1",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "RETKINIA",
+          "variants": 6,
+          "tripCount": 24,
+          "stops": 12,
+          "lengthKm": 4.44,
+          "stats": {
+            "observations": 175,
+            "matched": 175,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.6952059171992135,
+            "roundaboutSegs": 5,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "RETKINIA",
+          "variants": 9,
+          "tripCount": 149,
+          "stops": 10,
+          "lengthKm": 3.33,
+          "stats": {
+            "observations": 125,
+            "matched": 125,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 3.3462023652140536,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "G2",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "ŁSSE JANIKA",
+          "variants": 6,
+          "tripCount": 38,
+          "stops": 14,
+          "lengthKm": 4.61,
+          "stats": {
+            "observations": 116,
+            "matched": 116,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 2.9587542517403262,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "RETKINIA",
+          "variants": 9,
+          "tripCount": 18,
+          "stops": 14,
+          "lengthKm": 6.1,
+          "stats": {
+            "observations": 184,
+            "matched": 184,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 3.408038441314456,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "H",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "CHOJNY HYDRO",
+          "variants": 12,
+          "tripCount": 11,
+          "stops": 16,
+          "lengthKm": 7.93,
+          "stats": {
+            "observations": 180,
+            "matched": 180,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 3.3861681688009067,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "H ZJAZD DO NOWE SADY",
+          "variants": 6,
+          "tripCount": 5,
+          "stops": 12,
+          "lengthKm": 5.6,
+          "stats": {
+            "observations": 206,
+            "matched": 206,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 0.9975219647129041,
+            "roundaboutSegs": 14,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "N1A",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "ALEKSANDRÓW ŁÓDZKI TARGOWY RYNEK",
+          "variants": 9,
+          "tripCount": 12,
+          "stops": 56,
+          "lengthKm": 29.69,
+          "stats": {
+            "observations": 900,
+            "matched": 900,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 2.00941976457478,
+            "roundaboutSegs": 60,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "JANÓW",
+          "variants": 9,
+          "tripCount": 12,
+          "stops": 54,
+          "lengthKm": 29.77,
+          "stats": {
+            "observations": 853,
+            "matched": 853,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 2.047337167206084,
+            "roundaboutSegs": 128,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "N1B",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "TEOFILÓW ROJNA",
+          "variants": 12,
+          "tripCount": 26,
+          "stops": 47,
+          "lengthKm": 23.57,
+          "stats": {
+            "observations": 795,
+            "matched": 795,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.8221356459991105,
+            "roundaboutSegs": 59,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "JANÓW",
+          "variants": 12,
+          "tripCount": 26,
+          "stops": 45,
+          "lengthKm": 23.55,
+          "stats": {
+            "observations": 732,
+            "matched": 732,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.9267165860027444,
+            "roundaboutSegs": 109,
+            "extStart": 363,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "N2",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "RADOGOSZCZ WSCHÓD",
+          "variants": 15,
+          "tripCount": 36,
+          "stops": 41,
+          "lengthKm": 17.62,
+          "stats": {
+            "observations": 475,
+            "matched": 475,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 2.2381911432770205,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "RETKINIA",
+          "variants": 12,
+          "tripCount": 38,
+          "stops": 37,
+          "lengthKm": 17.25,
+          "stats": {
+            "observations": 561,
+            "matched": 561,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 2.749142148839335,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "N3A",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "TEOFILÓW ROJNA",
+          "variants": 12,
+          "tripCount": 17,
+          "stops": 55,
+          "lengthKm": 26.34,
+          "stats": {
+            "observations": 696,
+            "matched": 696,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.8920238937260538,
+            "roundaboutSegs": 90,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "INSTYTUT CZMP PRZEZ KURCZAKI",
+          "variants": 12,
+          "tripCount": 19,
+          "stops": 54,
+          "lengthKm": 26.44,
+          "stats": {
+            "observations": 703,
+            "matched": 703,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 2.5507042747125377,
+            "roundaboutSegs": 46,
+            "extStart": 363,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "N3B",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "TEOFILÓW ROJNA",
+          "variants": 9,
+          "tripCount": 19,
+          "stops": 56,
+          "lengthKm": 26.19,
+          "stats": {
+            "observations": 676,
+            "matched": 676,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 2.024370595079774,
+            "roundaboutSegs": 90,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "INSTYTUT CZMP PRZEZ TRYBUNALSKA",
+          "variants": 9,
+          "tripCount": 16,
+          "stops": 56,
+          "lengthKm": 26.53,
+          "stats": {
+            "observations": 663,
+            "matched": 663,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 2.603901555606548,
+            "roundaboutSegs": 46,
+            "extStart": 363,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "N4A",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "STOKI SKALNA",
+          "variants": 15,
+          "tripCount": 32,
+          "stops": 41,
+          "lengthKm": 20.49,
+          "stats": {
+            "observations": 627,
+            "matched": 627,
+            "noCandidates": 0,
+            "viterbiBreaks": 1,
+            "bridged": 0,
+            "rawStretchCount": 1,
+            "rawMeters": 20,
+            "meanError": 1.9518910493983348,
+            "roundaboutSegs": 48,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "CHOCIANOWICE IKEA",
+          "variants": 18,
+          "tripCount": 31,
+          "stops": 45,
+          "lengthKm": 21.4,
+          "stats": {
+            "observations": 541,
+            "matched": 541,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 2.1189286000827874,
+            "roundaboutSegs": 18,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "N4B",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "STOKI SKALNA",
+          "variants": 3,
+          "tripCount": 3,
+          "stops": 65,
+          "lengthKm": 32.67,
+          "stats": {
+            "observations": 724,
+            "matched": 724,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 2.0532150118131023,
+            "roundaboutSegs": 41,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "DWORZEC PKP PABIANICE",
+          "variants": 9,
+          "tripCount": 4,
+          "stops": 71,
+          "lengthKm": 34.44,
+          "stats": {
+            "observations": 693,
+            "matched": 693,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 2.2743745425432276,
+            "roundaboutSegs": 60,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "N5A",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "RADOGOSZCZ ZACHÓD",
+          "variants": 15,
+          "tripCount": 22,
+          "stops": 43,
+          "lengthKm": 21.08,
+          "stats": {
+            "observations": 595,
+            "matched": 595,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 2.038937329535751,
+            "roundaboutSegs": 4,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "JANÓW",
+          "variants": 9,
+          "tripCount": 20,
+          "stops": 46,
+          "lengthKm": 22.13,
+          "stats": {
+            "observations": 568,
+            "matched": 568,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 2.4399570478151644,
+            "roundaboutSegs": 25,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "N5B",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "RADOGOSZCZ ZACHÓD",
+          "variants": 15,
+          "tripCount": 16,
+          "stops": 56,
+          "lengthKm": 28.41,
+          "stats": {
+            "observations": 685,
+            "matched": 685,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 2.0745904560142754,
+            "roundaboutSegs": 17,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "ANDRESPOL",
+          "variants": 15,
+          "tripCount": 18,
+          "stops": 59,
+          "lengthKm": 29.35,
+          "stats": {
+            "observations": 759,
+            "matched": 759,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 2.105065626345128,
+            "roundaboutSegs": 40,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "N6",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "RONDO POWSTAŃCÓW 1863R.",
+          "variants": 15,
+          "tripCount": 35,
+          "stops": 43,
+          "lengthKm": 18.89,
+          "stats": {
+            "observations": 599,
+            "matched": 599,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.8411216781570752,
+            "roundaboutSegs": 13,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "DW. ŁÓDŹ DĄBROWA",
+          "variants": 15,
+          "tripCount": 38,
+          "stops": 40,
+          "lengthKm": 19.09,
+          "stats": {
+            "observations": 597,
+            "matched": 597,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 2.5439031358225352,
+            "roundaboutSegs": 38,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "N7A",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "NOWOSOLNA",
+          "variants": 9,
+          "tripCount": 16,
+          "stops": 61,
+          "lengthKm": 29.12,
+          "stats": {
+            "observations": 1007,
+            "matched": 1007,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.9460310862776204,
+            "roundaboutSegs": 29,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "RETKINIA",
+          "variants": 9,
+          "tripCount": 17,
+          "stops": 55,
+          "lengthKm": 28.52,
+          "stats": {
+            "observations": 992,
+            "matched": 992,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.8177805307077923,
+            "roundaboutSegs": 9,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "N7B",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "TELEFONICZNA ZAJEZDNIA",
+          "variants": 12,
+          "tripCount": 22,
+          "stops": 60,
+          "lengthKm": 27.1,
+          "stats": {
+            "observations": 982,
+            "matched": 982,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.9950486496273103,
+            "roundaboutSegs": 29,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "RETKINIA",
+          "variants": 15,
+          "tripCount": 22,
+          "stops": 54,
+          "lengthKm": 26.48,
+          "stats": {
+            "observations": 962,
+            "matched": 962,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.9274115897234563,
+            "roundaboutSegs": 9,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "N8",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "KOŚCIUSZKI 6 SIERPNIA",
+          "variants": 12,
+          "tripCount": 6,
+          "stops": 29,
+          "lengthKm": 14.29,
+          "stats": {
+            "observations": 322,
+            "matched": 322,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.730754907264956,
+            "roundaboutSegs": 42,
+            "extStart": 0,
+            "extEnd": 284
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "JĘDRZEJÓW PRZEMYSŁOWY ZACHÓD",
+          "variants": 12,
+          "tripCount": 6,
+          "stops": 33,
+          "lengthKm": 15.25,
+          "stats": {
+            "observations": 369,
+            "matched": 369,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.9390729862522793,
+            "roundaboutSegs": 28,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "N9",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "KOŚCIUSZKI 6 SIERPNIA",
+          "variants": 6,
+          "tripCount": 4,
+          "stops": 19,
+          "lengthKm": 10.47,
+          "stats": {
+            "observations": 138,
+            "matched": 138,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.7910586409777816,
+            "roundaboutSegs": 17,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "KONSTANTYNÓW ŁÓDZKI PL. WOLNOŚCI",
+          "variants": 6,
+          "tripCount": 4,
+          "stops": 21,
+          "lengthKm": 11.15,
+          "stats": {
+            "observations": 82,
+            "matched": 82,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 2.3157308541480117,
+            "roundaboutSegs": 7,
+            "extStart": 249,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "W",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "DĄBROWSKIEGO PODHALAŃSKA",
+          "variants": 15,
+          "tripCount": 91,
+          "stops": 19,
+          "lengthKm": 9.51,
+          "stats": {
+            "observations": 318,
+            "matched": 318,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 2.65311532172787,
+            "roundaboutSegs": 20,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "RONDO INWALIDÓW",
+          "variants": 12,
+          "tripCount": 94,
+          "stops": 21,
+          "lengthKm": 10.32,
+          "stats": {
+            "observations": 385,
+            "matched": 385,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 2.295254835161968,
+            "roundaboutSegs": 15,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "Z3",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "RONDO POWSTAŃCÓW 1863R.",
+          "variants": 6,
+          "tripCount": 165,
+          "stops": 7,
+          "lengthKm": 2.33,
+          "stats": {
+            "observations": 19,
+            "matched": 19,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 0.6404720236123305,
+            "roundaboutSegs": 0,
+            "extStart": 1091,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "MARYSIN WARSZAWSKA",
+          "variants": 6,
+          "tripCount": 165,
+          "stops": 9,
+          "lengthKm": 2.69,
+          "stats": {
+            "observations": 63,
+            "matched": 63,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.3104596539555637,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "Z6",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "ZACHODNIA MANUFAKTURA",
+          "variants": 10,
+          "tripCount": 175,
+          "stops": 15,
+          "lengthKm": 6.46,
+          "stats": {
+            "observations": 200,
+            "matched": 200,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 2.2919855504938487,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 174
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "SIKAWA CENTRUM HANDLOWE",
+          "variants": 8,
+          "tripCount": 148,
+          "stops": 11,
+          "lengthKm": 5.42,
+          "stats": {
+            "observations": 195,
+            "matched": 195,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.5859619731380503,
+            "roundaboutSegs": 0,
+            "extStart": 113,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "Z11",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "PIOTRKOWSKA CENTRUM",
+          "variants": 9,
+          "tripCount": 466,
+          "stops": 7,
+          "lengthKm": 2.31,
+          "stats": {
+            "observations": 100,
+            "matched": 100,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.3747276848732177,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "PL. NIEPODLEGŁOŚCI",
+          "variants": 15,
+          "tripCount": 457,
+          "stops": 7,
+          "lengthKm": 2.11,
+          "stats": {
+            "observations": 76,
+            "matched": 76,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 2.7305745495757425,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "Z13",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "PL.MIKULSKIEGO",
+          "variants": 9,
+          "tripCount": 170,
+          "stops": 22,
+          "lengthKm": 9.68,
+          "stats": {
+            "observations": 260,
+            "matched": 260,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.400277941211749,
+            "roundaboutSegs": 1,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "LEGIONÓW WŁÓKNIARZY",
+          "variants": 9,
+          "tripCount": 171,
+          "stops": 17,
+          "lengthKm": 7.79,
+          "stats": {
+            "observations": 226,
+            "matched": 226,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.8619293062766085,
+            "roundaboutSegs": 15,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "Z43",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "LEGIONÓW WŁÓKNIARZY",
+          "variants": 9,
+          "tripCount": 127,
+          "stops": 15,
+          "lengthKm": 8.56,
+          "stats": {
+            "observations": 88,
+            "matched": 88,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.7734252180082974,
+            "roundaboutSegs": 17,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "PL. WOLNOŚCI KONSTANTYNÓW ŁÓDZKI",
+          "variants": 9,
+          "tripCount": 127,
+          "stops": 16,
+          "lengthKm": 8.43,
+          "stats": {
+            "observations": 59,
+            "matched": 59,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 2.6820323199547236,
+            "roundaboutSegs": 7,
+            "extStart": 152,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "1",
+      "mode": "tram",
+      "color": "#d6212b",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "CM. OGRODOWA",
+          "variants": 12,
+          "tripCount": 111,
+          "stops": 22,
+          "lengthKm": 7.15,
+          "stats": {
+            "observations": 227,
+            "matched": 227,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 2.3222149556038154,
+            "roundaboutSegs": 0,
+            "extStart": 672,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "KILIŃSKIEGO MOCHNACKIEGO",
+          "variants": 12,
+          "tripCount": 108,
+          "stops": 20,
+          "lengthKm": 7.16,
+          "stats": {
+            "observations": 301,
+            "matched": 301,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 2.88439856492726,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 455
+          }
+        }
+      ]
+    },
+    {
+      "line": "2",
+      "mode": "tram",
+      "color": "#d6212b",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "KOCHANÓWKA",
+          "variants": 9,
+          "tripCount": 163,
+          "stops": 25,
+          "lengthKm": 10.11,
+          "stats": {
+            "observations": 221,
+            "matched": 221,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.5381272761667149,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "KOŚCIUSZKI MICKIEWICZA",
+          "variants": 9,
+          "tripCount": 163,
+          "stops": 22,
+          "lengthKm": 9.82,
+          "stats": {
+            "observations": 173,
+            "matched": 173,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 4.6374653892916,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "3",
+      "mode": "tram",
+      "color": "#d6212b",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "RONDO POWSTAŃCÓW 1863",
+          "variants": 6,
+          "tripCount": 164,
+          "stops": 17,
+          "lengthKm": 5.02,
+          "stats": {
+            "observations": 252,
+            "matched": 252,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 0.6535323940648753,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "KOŚCIUSZKI MICKIEWICZA",
+          "variants": 6,
+          "tripCount": 164,
+          "stops": 14,
+          "lengthKm": 5.11,
+          "stats": {
+            "observations": 175,
+            "matched": 175,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.4159803410172758,
+            "roundaboutSegs": 0,
+            "extStart": 124,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "4",
+      "mode": "tram",
+      "color": "#d6212b",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "HELENÓWEK",
+          "variants": 15,
+          "tripCount": 162,
+          "stops": 38,
+          "lengthKm": 14.8,
+          "stats": {
+            "observations": 516,
+            "matched": 516,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 0.750071973891708,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 416
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "DW. ŁÓDŹ DĄBROWA",
+          "variants": 15,
+          "tripCount": 162,
+          "stops": 38,
+          "lengthKm": 15.07,
+          "stats": {
+            "observations": 619,
+            "matched": 619,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.5903023614907845,
+            "roundaboutSegs": 0,
+            "extStart": 149,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "5",
+      "mode": "tram",
+      "color": "#d6212b",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "TEOFILÓW",
+          "variants": 15,
+          "tripCount": 165,
+          "stops": 42,
+          "lengthKm": 17.93,
+          "stats": {
+            "observations": 490,
+            "matched": 490,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.4843974274273901,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "CHOJNY KURCZAKI",
+          "variants": 15,
+          "tripCount": 168,
+          "stops": 41,
+          "lengthKm": 18.07,
+          "stats": {
+            "observations": 511,
+            "matched": 511,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 2.426019212736384,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "6",
+      "mode": "tram",
+      "color": "#d6212b",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "CHOJNY KURCZAKI",
+          "variants": 15,
+          "tripCount": 165,
+          "stops": 29,
+          "lengthKm": 12.51,
+          "stats": {
+            "observations": 397,
+            "matched": 397,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.5370174769578393,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "WIDZEW AUGUSTÓW",
+          "variants": 12,
+          "tripCount": 165,
+          "stops": 29,
+          "lengthKm": 12.42,
+          "stats": {
+            "observations": 405,
+            "matched": 405,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.471671981467103,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "7",
+      "mode": "tram",
+      "color": "#d6212b",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "CM. OGRODOWA",
+          "variants": 12,
+          "tripCount": 167,
+          "stops": 23,
+          "lengthKm": 9.08,
+          "stats": {
+            "observations": 325,
+            "matched": 325,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.2817532008171386,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "CM. ZARZEW",
+          "variants": 12,
+          "tripCount": 164,
+          "stops": 23,
+          "lengthKm": 8.96,
+          "stats": {
+            "observations": 218,
+            "matched": 218,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.5662182203600306,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "8",
+      "mode": "tram",
+      "color": "#d6212b",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "CM. ZARZEW",
+          "variants": 15,
+          "tripCount": 167,
+          "stops": 33,
+          "lengthKm": 17.22,
+          "stats": {
+            "observations": 421,
+            "matched": 421,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 2.180519424395681,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "TEOFILÓW",
+          "variants": 15,
+          "tripCount": 167,
+          "stops": 34,
+          "lengthKm": 17.38,
+          "stats": {
+            "observations": 426,
+            "matched": 426,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.8854205286208416,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "9",
+      "mode": "tram",
+      "color": "#d6212b",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "DW. ŁÓDŹ FABRYCZNA",
+          "variants": 15,
+          "tripCount": 162,
+          "stops": 22,
+          "lengthKm": 12.16,
+          "stats": {
+            "observations": 329,
+            "matched": 329,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.339626922865652,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "OLECHÓW",
+          "variants": 15,
+          "tripCount": 162,
+          "stops": 23,
+          "lengthKm": 12.3,
+          "stats": {
+            "observations": 425,
+            "matched": 425,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.9470942876803736,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "10A",
+      "mode": "tram",
+      "color": "#d6212b",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "WIDZEW AUGUSTÓW",
+          "variants": 6,
+          "tripCount": 44,
+          "stops": 25,
+          "lengthKm": 12.3,
+          "stats": {
+            "observations": 370,
+            "matched": 370,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 2.2900555705522874,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "RETKINIA",
+          "variants": 6,
+          "tripCount": 46,
+          "stops": 26,
+          "lengthKm": 12.48,
+          "stats": {
+            "observations": 311,
+            "matched": 311,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.3415655868812604,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "10B",
+      "mode": "tram",
+      "color": "#d6212b",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "OLECHÓW",
+          "variants": 9,
+          "tripCount": 189,
+          "stops": 33,
+          "lengthKm": 17.1,
+          "stats": {
+            "observations": 522,
+            "matched": 522,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 2.5823292585335422,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "RETKINIA",
+          "variants": 9,
+          "tripCount": 188,
+          "stops": 33,
+          "lengthKm": 17.43,
+          "stats": {
+            "observations": 421,
+            "matched": 421,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.704331257748773,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "11",
+      "mode": "tram",
+      "color": "#d6212b",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "HELENÓWEK",
+          "variants": 9,
+          "tripCount": 173,
+          "stops": 24,
+          "lengthKm": 8.19,
+          "stats": {
+            "observations": 323,
+            "matched": 323,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 0.5609753628307156,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 416
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "KOŚCIUSZKI MICKIEWICZA",
+          "variants": 9,
+          "tripCount": 167,
+          "stops": 22,
+          "lengthKm": 8.26,
+          "stats": {
+            "observations": 285,
+            "matched": 285,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.1053396880146695,
+            "roundaboutSegs": 0,
+            "extStart": 149,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "12",
+      "mode": "tram",
+      "color": "#d6212b",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "STOKI",
+          "variants": 12,
+          "tripCount": 163,
+          "stops": 31,
+          "lengthKm": 13.2,
+          "stats": {
+            "observations": 529,
+            "matched": 529,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.5908697268538161,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "RETKINIA",
+          "variants": 12,
+          "tripCount": 166,
+          "stops": 30,
+          "lengthKm": 13.29,
+          "stats": {
+            "observations": 505,
+            "matched": 505,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.250118228208433,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "13",
+      "mode": "tram",
+      "color": "#d6212b",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "DĄBROWA NIŻSZA",
+          "variants": 15,
+          "tripCount": 167,
+          "stops": 29,
+          "lengthKm": 15.62,
+          "stats": {
+            "observations": 367,
+            "matched": 367,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 2.1378234747115687,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "TEOFILÓW",
+          "variants": 15,
+          "tripCount": 166,
+          "stops": 29,
+          "lengthKm": 15.28,
+          "stats": {
+            "observations": 411,
+            "matched": 411,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.8757303061293866,
+            "roundaboutSegs": 0,
+            "extStart": 173,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "14",
+      "mode": "tram",
+      "color": "#d6212b",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "RETKINIA",
+          "variants": 15,
+          "tripCount": 102,
+          "stops": 26,
+          "lengthKm": 11.96,
+          "stats": {
+            "observations": 396,
+            "matched": 396,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.1433930149157459,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "DW. ŁÓDŹ DĄBROWA",
+          "variants": 15,
+          "tripCount": 99,
+          "stops": 26,
+          "lengthKm": 12.05,
+          "stats": {
+            "observations": 460,
+            "matched": 460,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.8411569761247086,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "15",
+      "mode": "tram",
+      "color": "#d6212b",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "TELEFONICZNA ZAJEZDNIA",
+          "variants": 18,
+          "tripCount": 156,
+          "stops": 34,
+          "lengthKm": 13.48,
+          "stats": {
+            "observations": 639,
+            "matched": 639,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.2873812809958578,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "CHOJNY KURCZAKI",
+          "variants": 12,
+          "tripCount": 167,
+          "stops": 33,
+          "lengthKm": 13.46,
+          "stats": {
+            "observations": 615,
+            "matched": 615,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.7471719808701436,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "16",
+      "mode": "tram",
+      "color": "#d6212b",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "DW. ŁÓDŹ ŻABIENIEC",
+          "variants": 15,
+          "tripCount": 162,
+          "stops": 28,
+          "lengthKm": 14.39,
+          "stats": {
+            "observations": 591,
+            "matched": 591,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.827500715188539,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "CHOCIANOWICE IKEA",
+          "variants": 15,
+          "tripCount": 164,
+          "stops": 28,
+          "lengthKm": 13.91,
+          "stats": {
+            "observations": 428,
+            "matched": 428,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.675922055688724,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "41",
+      "mode": "tram",
+      "color": "#d6212b",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "PL. NIEPODLEGŁOŚCI",
+          "variants": 9,
+          "tripCount": 115,
+          "stops": 31,
+          "lengthKm": 15.23,
+          "stats": {
+            "observations": 382,
+            "matched": 382,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.6676549412201842,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "PABIANICE WIEJSKA",
+          "variants": 12,
+          "tripCount": 119,
+          "stops": 31,
+          "lengthKm": 15.21,
+          "stats": {
+            "observations": 365,
+            "matched": 365,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.8560145149899425,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "45",
+      "mode": "tram",
+      "color": "#d6212b",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "ZGIERZ PL.KILIŃSKIEGO",
+          "variants": 6,
+          "tripCount": 137,
+          "stops": 32,
+          "lengthKm": 13.36,
+          "stats": {
+            "observations": 420,
+            "matched": 420,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.0530723940606226,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "TELEFONICZNA ZAJEZDNIA",
+          "variants": 9,
+          "tripCount": 113,
+          "stops": 34,
+          "lengthKm": 13.4,
+          "stats": {
+            "observations": 416,
+            "matched": 416,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.917062820857222,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "O",
+      "mode": "tram",
+      "color": "#d6212b",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "PÓŁNOCNA",
+          "variants": 9,
+          "tripCount": 25,
+          "stops": 19,
+          "lengthKm": 6.97,
+          "stats": {
+            "observations": 301,
+            "matched": 301,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.3243293560658884,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 520
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "RADIOSTACJA",
+          "variants": 6,
+          "tripCount": 24,
+          "stops": 21,
+          "lengthKm": 7.16,
+          "stats": {
+            "observations": 245,
+            "matched": 245,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.2041989224958967,
+            "roundaboutSegs": 0,
+            "extStart": 340,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "Z1",
+      "mode": "tram",
+      "color": "#d6212b",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "DOŁY",
+          "variants": 6,
+          "tripCount": 171,
+          "stops": 17,
+          "lengthKm": 7.07,
+          "stats": {
+            "observations": 112,
+            "matched": 112,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 2.2610276404620646,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "DW. ŁÓDŹ ŻABIENIEC",
+          "variants": 6,
+          "tripCount": 171,
+          "stops": 16,
+          "lengthKm": 6.87,
+          "stats": {
+            "observations": 166,
+            "matched": 166,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 2.6634300549023533,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "Z2",
+      "mode": "tram",
+      "color": "#d6212b",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "CHOCIANOWICE IKEA",
+          "variants": 9,
+          "tripCount": 165,
+          "stops": 19,
+          "lengthKm": 8.86,
+          "stats": {
+            "observations": 365,
+            "matched": 365,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 0.9953314165751881,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "DW. ŁÓDŹ DĄBROWA",
+          "variants": 9,
+          "tripCount": 166,
+          "stops": 20,
+          "lengthKm": 9.22,
+          "stats": {
+            "observations": 390,
+            "matched": 390,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.1165468153879445,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    }
+  ]
+}
