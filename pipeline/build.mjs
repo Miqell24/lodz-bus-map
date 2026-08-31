@@ -22,6 +22,11 @@ import { buildGraph, railKind } from './lib/graph.mjs';
 import { matchShape, extendToStops } from './lib/hmm.mjs';
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..');
+
+// The one ALL-CAPS name in an otherwise properly-cased feed, by exact match.
+const NAME_FIX = {
+  'OLECHÓW': 'Olechów',
+};
 // m — longer jumps between shape points are GTFS data gaps. Inside a real gap
 // the HMM bridges by routing instead of interpolating observations, which would
 // fabricate straight-line detours through side streets.
@@ -403,6 +408,7 @@ async function processMode(cfg) {
       // name across feeds (one label, not two): Radzymin writes "Radzymin,
       // Głowackiego" where ZTM writes "Radzymin Głowackiego"
       if (feed.nameFix) name = feed.nameFix(name);
+      name = NAME_FIX[name] || name;
       const fix = STOP_FIX[feed.tag + ':' + s.stop_id];
       stopsById.set(feed.tag + ':' + s.stop_id, {
         name,
