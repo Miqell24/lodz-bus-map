@@ -4523,7 +4523,7 @@
     {
       "line": "N1A",
       "mode": "bus",
-      "color": "#0059a9",
+      "color": "#000000",
       "dirs": [
         {
           "dir": "0",
@@ -4573,7 +4573,7 @@
     {
       "line": "N1B",
       "mode": "bus",
-      "color": "#0059a9",
+      "color": "#000000",
       "dirs": [
         {
           "dir": "0",
@@ -4623,7 +4623,7 @@
     {
       "line": "N2",
       "mode": "bus",
-      "color": "#0059a9",
+      "color": "#000000",
       "dirs": [
         {
           "dir": "0",
@@ -4673,7 +4673,7 @@
     {
       "line": "N3A",
       "mode": "bus",
-      "color": "#0059a9",
+      "color": "#000000",
       "dirs": [
         {
           "dir": "0",
@@ -4723,7 +4723,7 @@
     {
       "line": "N3B",
       "mode": "bus",
-      "color": "#0059a9",
+      "color": "#000000",
       "dirs": [
         {
           "dir": "0",
@@ -4773,7 +4773,7 @@
     {
       "line": "N4A",
       "mode": "bus",
-      "color": "#0059a9",
+      "color": "#000000",
       "dirs": [
         {
           "dir": "0",
@@ -4823,7 +4823,7 @@
     {
       "line": "N4B",
       "mode": "bus",
-      "color": "#0059a9",
+      "color": "#000000",
       "dirs": [
         {
           "dir": "0",
@@ -4873,7 +4873,7 @@
     {
       "line": "N5A",
       "mode": "bus",
-      "color": "#0059a9",
+      "color": "#000000",
       "dirs": [
         {
           "dir": "0",
@@ -4923,7 +4923,7 @@
     {
       "line": "N5B",
       "mode": "bus",
-      "color": "#0059a9",
+      "color": "#000000",
       "dirs": [
         {
           "dir": "0",
@@ -4973,7 +4973,7 @@
     {
       "line": "N6",
       "mode": "bus",
-      "color": "#0059a9",
+      "color": "#000000",
       "dirs": [
         {
           "dir": "0",
@@ -5023,7 +5023,7 @@
     {
       "line": "N7A",
       "mode": "bus",
-      "color": "#0059a9",
+      "color": "#000000",
       "dirs": [
         {
           "dir": "0",
@@ -5073,7 +5073,7 @@
     {
       "line": "N7B",
       "mode": "bus",
-      "color": "#0059a9",
+      "color": "#000000",
       "dirs": [
         {
           "dir": "0",
@@ -5123,7 +5123,7 @@
     {
       "line": "N8",
       "mode": "bus",
-      "color": "#0059a9",
+      "color": "#000000",
       "dirs": [
         {
           "dir": "0",
@@ -5173,7 +5173,7 @@
     {
       "line": "N9",
       "mode": "bus",
-      "color": "#0059a9",
+      "color": "#000000",
       "dirs": [
         {
           "dir": "0",
