@@ -183,7 +183,7 @@ async function init() {
   map.addControl(new maplibregl.NavigationControl({ visualizePitch: false }), 'top-right');
   map.addControl(new maplibregl.GeolocateControl({ positionOptions: { enableHighAccuracy: true }, trackUserLocation: true, showUserHeading: true, fitBoundsOptions: { maxZoom: 15.5 } }), 'top-right');
   map.addControl(new maplibregl.ScaleControl({ maxWidth: 120 }), 'bottom-left');
-  map.addControl(new maplibregl.AttributionControl({ compact: true, customAttribution: 'Timetables: GTFS ZDiT Łódź (otwarte.miasto.lodz.pl)' }));
+  map.addControl(new maplibregl.AttributionControl({ compact: true, customAttribution: 'Timetables: GTFS ZDiT Łódź (otwarte.miasto.lodz.pl) · MZK Pabianice · MUK Zgierz (rozklady.miasto.zgierz.pl)' }));
 
   const [meta, linesMeta] = await Promise.all([
     fetch('data/meta.json').then((r) => r.json()),
@@ -219,11 +219,38 @@ async function init() {
   const lineColor = (l) => LINE_COLORS[l] || CORRIDOR_INK;
   const LINE_COLOR_MATCH = ['match', ['get', 'line'],
     ...Object.entries(LINE_COLORS).flatMap(([l, c]) => [l, c]), CORRIDOR_INK];
+  // Three operators share this sheet and they share numbers: Pabianice's 1–7,
+  // Zgierz's 1–10 and 61, ZDiT's own trams 1–16 and bus 61. Each chip prints
+  // what its own stop flag prints (meta carries the label where the key had to
+  // take an operator prefix), so the list is grouped by operator — the Berlin
+  // panel. Inside an operator, buses and trams stay apart.
+  const OPS = Object.entries(meta.ops || { zdit: 'ZDiT — Łódź' });
+  const OP_TITLE = new Map(OPS);
+  const CATS = [['bus', 'Buses'], ['tram', 'Trams']];
+  const chipHtml = (l, color) =>
+    `<button class="chip${l.line === state.selected && l.mode === state.selMode ? ' active' : ''}" data-line="${esc(l.line)}" data-mode="${esc(l.mode)}" ` +
+      `style="background:${esc(color)}">${esc(l.label || l.line)}</button>`;
   const paintChips = (linesView) => {
-    document.getElementById('chips').innerHTML = meta.lines
-      .map((l) => `<button class="chip${l.line === state.selected && l.mode === state.selMode ? ' active' : ''}" data-line="${esc(l.line)}" data-mode="${esc(l.mode)}" ` +
-        `style="background:${esc(linesView ? lineColor(l.line) : l.color)}">${esc(l.line)}</button>`)
-      .join(' ');
+    const bucket = new Map();
+    for (const l of meta.lines) {
+      const k = l.op || 'zdit';
+      if (!bucket.has(k)) bucket.set(k, []);
+      bucket.get(k).push(l);
+    }
+    const section = (key) => {
+      const ls = bucket.get(key);
+      if (!ls || !ls.length) return '';
+      bucket.delete(key);
+      const groups = CATS.map(([c, title]) => [title, ls.filter((l) => l.mode === c)])
+        .filter(([, cl]) => cl.length);
+      const many = bucket.size || OPS.length > 1;
+      return `<h3 class="chip-head">${esc(OP_TITLE.get(key) || key)} <span class="n">${ls.length}</span></h3>` +
+        groups.map(([title, cl]) => (groups.length > 1 ? `<h4 class="chip-sub">${title}</h4>` : '') +
+          `<div class="chip-cloud">${cl.map((l) => chipHtml(l, linesView ? lineColor(l.line) : l.color)).join(' ')}</div>`).join('');
+    };
+    let html = OPS.map(([k]) => section(k)).join('');
+    for (const k of [...bucket.keys()]) html += section(k);
+    document.getElementById('chips').innerHTML = html;
   };
 
   // Panel state. `view` is the big one: 'corridors' is this map as it has always
@@ -1352,7 +1379,7 @@ async function init() {
       const fs = Math.max(16, Math.round(out.width / 130));
       ctx.font = `${fs}px sans-serif`;
       ctx.textBaseline = 'bottom';
-      const txt = '© OpenStreetMap contributors · OpenFreeMap · GTFS: ZDiT Łódź (otwarte.miasto.lodz.pl)';
+      const txt = '© OpenStreetMap contributors · OpenFreeMap · GTFS: ZDiT Łódź · MZK Pabianice · MUK Zgierz';
       const tw = ctx.measureText(txt).width;
       ctx.fillStyle = 'rgba(255,255,255,0.82)';
       ctx.fillRect(out.width - tw - fs, out.height - fs * 1.7, tw + fs, fs * 1.7);
@@ -1596,7 +1623,7 @@ async function init() {
             const fs = Math.max(16, Math.round(Wf / 500));
             cx.font = `${fs}px sans-serif`;
             cx.textBaseline = 'bottom';
-            const txt = '© OpenStreetMap contributors · OpenFreeMap · GTFS: ZDiT Łódź (otwarte.miasto.lodz.pl)';
+            const txt = '© OpenStreetMap contributors · OpenFreeMap · GTFS: ZDiT Łódź · MZK Pabianice · MUK Zgierz';
             const tw = Math.min(cx.measureText(txt).width, wpx - fs);
             cx.fillStyle = 'rgba(255,255,255,0.82)';
             cx.fillRect(wpx - tw - fs, hpx - fs * 1.7, tw + fs, fs * 1.7);

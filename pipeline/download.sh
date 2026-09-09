@@ -1,8 +1,9 @@
 #!/usr/bin/env bash
-# Downloads input data: the ZDiT GTFS, OSM networks (Overpass), MapLibre GL.
-# Everything is cached — re-running only fetches what is missing.
+# Downloads input data: three GTFS feeds, the OSM networks (Geofabrik +
+# pyosmium) and MapLibre GL. Everything is cached — re-running only fetches
+# what is missing.
 #
-# Łódź: ONE feed from the city's open-data portal (otwarte.miasto.lodz.pl,
+# Łódź: THREE feeds. The city's own bundle from the open-data portal (otwarte.miasto.lodz.pl,
 # "Transport i komunikacja" → GTFS.zip), produced by R&G PLUS for the Zarząd
 # Dróg i Transportu. The URL sits under a 2025/06 upload path but the file is
 # refreshed in place (the copy taken on 25.08.2026 carries a 20.08.2026 feed).
@@ -10,10 +11,13 @@
 # are separated by route_type at build time — and the sheet covers the whole
 # agglomeration: the tram lines to Pabianice (41) and Zgierz (45), plus the
 # ZDiT county buses out to Aleksandrów, Konstantynów, Lutomiersk, Stryków,
-# Brzeziny, Rzgów and Andrespol.
+# Brzeziny, Rzgów and Andrespol. Beside it ride the two neighbouring town
+# networks the ZDiT bundle does not carry: MZK Pabianice (its own GTFS) and
+# MUK Zgierz (no GTFS anywhere — pipeline/zgierz-gtfs.py builds one out of the
+# city's timetable site).
 set -euo pipefail
 cd "$(dirname "$0")/.."
-mkdir -p data/gtfs data/osm web/vendor
+mkdir -p data/gtfs data/gtfs-pabianice data/gtfs-zgierz data/osm web/vendor
 
 # A downloaded extract is only accepted if it PARSES and carries a plausible
 # number of elements. `grep -q '"elements"'` — the guard this family used
@@ -30,6 +34,8 @@ except Exception:
 PYEOF
 }
 
+# Kept for the day the mirrors come back (the OSM step below cuts a Geofabrik
+# extract instead — see step 2).
 # Overpass with patience: the public mirrors answer 504 ("Dispatcher_Client…
 # timeout / server too busy") for minutes at a time, and a single pass over the
 # three endpoints then leaves the city without a road graph (25.08.2026, the
@@ -64,23 +70,48 @@ if [ ! -f data/gtfs/routes.txt ]; then
   unzip -o data/gtfs.zip -d data/gtfs
 fi
 
-# 2) OSM — roadways over the whole region (GTFS stops extent 51.65–51.91 N,
-#    19.20–19.76 E plus margin: Stryków in the north, Rzgów in the south,
-#    Lutomiersk in the west, Brzeziny in the east)
-if [ ! -f data/osm/lodz.json ]; then
-  echo "== Overpass (roads) =="
-  Q='[out:json][timeout:900][maxsize:1500000000];way(51.60,19.15,51.96,19.83)["highway"~"^(motorway|trunk|primary|secondary|tertiary|unclassified|residential|living_street|service|busway|construction|motorway_link|trunk_link|primary_link|secondary_link|tertiary_link)$"];out geom;'
-  overpass data/osm/lodz.json "$Q" 2000
+# 1b) GTFS — MZK Pabianice, the operator's own file (listed on odt.org.pl)
+if [ ! -f data/gtfs-pabianice/routes.txt ]; then
+  echo "== GTFS Pabianice =="
+  curl -fL --retry 3 --max-time 300 -o data/pabianice-gtfs.zip "https://gtfs.mzkpabianice.pl/GTFS.zip"
+  unzip -o data/pabianice-gtfs.zip -d data/gtfs-pabianice
 fi
 
-# 2b) OSM — rails for the tram mode. Łódź has no metro and no light rail: the
-#     regional lines to Pabianice and Zgierz are plain railway=tram, and
-#     railway=construction is admitted at build time for the stretches being
-#     rebuilt (the family's Sofia rule).
-if [ ! -f data/osm/lodz-rail.json ]; then
-  echo "== Overpass (rails) =="
-  QT='[out:json][timeout:600][maxsize:1000000000];way(51.60,19.15,51.96,19.83)["railway"~"^(tram|light_rail|construction)$"];out geom;'
-  overpass data/osm/lodz-rail.json "$QT" 40
+# 1c) GTFS — MUK Zgierz. No GTFS exists anywhere (not odt.org.pl, not
+#     files.girlc.at, not cdn.zbiorkom.live), so pipeline/zgierz-gtfs.py builds
+#     one from the city's own timetable site: stop sequences, running times and
+#     departures per day type. The poles carry no coordinates there and are
+#     geocoded against OSM's stop nodes (pipeline/pbf-stops.py) and the ZDiT
+#     feed, so this step runs after the OSM cut below on a first run.
+# (see step 4)
+
+# 2) OSM — from the Geofabrik lodzkie extract, not Overpass. On 9.09.2026
+#    every public mirror answered this 40 × 47 km road query with 504 for an
+#    hour (the wall Berlin, London, São Paulo and Vienna hit before), so the
+#    cut is made locally: pipeline/pbf-cut.py (needs `pip3 install --user
+#    osmium`) writes exactly the JSON Overpass would have returned, node ids
+#    included, for the same two boxes — roads over the region and the tram
+#    tracks (Łódź has no metro and no light rail; railway=construction is
+#    admitted for the stretches being rebuilt, the family's Sofia rule).
+if [ ! -f data/osm/lodz.json ] || [ ! -f data/osm/lodz-rail.json ]; then
+  python3 -c "import osmium" 2>/dev/null || { echo "brak pakietu osmium — zainstaluj: pip3 install --user osmium" >&2; exit 1; }
+  if [ ! -f data/lodzkie-latest.osm.pbf ]; then
+    echo "== Geofabrik lodzkie-latest.osm.pbf =="
+    curl -fL --retry 5 --retry-delay 5 -C - --max-time 3600 -o data/lodzkie-latest.osm.pbf       "https://download.geofabrik.de/europe/poland/lodzkie-latest.osm.pbf"
+  fi
+  echo "== cutting OSM out of the extract =="
+  python3 pipeline/pbf-cut.py
+fi
+
+# 2b) OSM — the bus-stop nodes of the Zgierz area, which geocode MUK's poles
+if [ ! -f data/osm/zgierz-stops.json ]; then
+  python3 pipeline/pbf-stops.py
+fi
+
+# 2c) MUK Zgierz → GTFS (needs the stop nodes above and the ZDiT stops)
+if [ ! -f data/gtfs-zgierz/routes.txt ]; then
+  echo "== MUK Zgierz z rozklady.miasto.zgierz.pl =="
+  python3 pipeline/zgierz-gtfs.py data/gtfs-zgierz
 fi
 
 # 3) MapLibre GL (vendored, no CDN at runtime)
@@ -91,4 +122,4 @@ if [ ! -f web/vendor/maplibre-gl.js ]; then
 fi
 
 echo "OK — data ready:"
-du -sh data/gtfs data/osm/lodz.json data/osm/lodz-rail.json 2>/dev/null || true
+du -sh data/gtfs data/gtfs-pabianice data/gtfs-zgierz data/osm/lodz.json data/osm/lodz-rail.json 2>/dev/null || true

@@ -64,8 +64,11 @@ const NIGHT = /^N\d/;
 const TROLLEYS = new Set();
 const lineRank = (k) => (TROLLEYS.has(k) ? 0
   : NIGHT.test(typeof LBL !== 'undefined' && LBL.has(k) ? LBL.get(k) : k) ? 2 : 1);
+// sorting happens on the PRINTED number: an operator prefix in the key would
+// otherwise split one operator's list in two (1 2 3 then mzk:1 mzk:2)
+const dispOf = (s) => (typeof LBL !== 'undefined' && LBL.has(s) ? LBL.get(s) : s);
 const numSort = (a, b) => {
-  const A = keyParts(a), B = keyParts(b);
+  const A = keyParts(dispOf(a)), B = keyParts(dispOf(b));
   return lineRank(a) - lineRank(b) || A[0].localeCompare(B[0]) || (A[1] - B[1]) || A[2].localeCompare(B[2]);
 };
 function round6(v) { return Math.round(v * 1e6) / 1e6; }
@@ -142,12 +145,61 @@ const busList = busArgs.filter((a) => a !== '--all');
 // track-works stopgap but permanent fixtures of this network (Z11 alone runs
 // 2 877 trips a week, more than any other bus here).
 const skipTechnical = (r) => /^(R\d|o?P\d)/.test((r.route_short_name || '').trim());
+
+// LINE KEYS across the three operators on this sheet. Pabianice numbers its
+// buses 1–7 and Zgierz numbers its 1, 3, 4, 5, 6, 8, 9, 10, 61 — the same
+// digits, on different pavements, and ZDiT signs a 61 of its own. So a number
+// used by MORE THAN ONE operator carries that operator's code in the KEY
+// (mzk:1, muk:1) and prints bare on the street through LBL — the Randstad
+// rule. A number only one of them uses stays exactly what it was.
+const LBL = new Map();
+const LINE_OP = new Map();          // line key → operator code, for the panel
+const OP_NAME = {
+  zdit: 'ZDiT — Łódź',
+  mzk: 'MZK Pabianice',
+  muk: 'MUK Zgierz',
+};
+// Numbers are counted across the WHOLE sheet, trams included: Pabianice's bus
+// 2 and Zgierz's bus 9 share their digits with Łódź trams, not with Łódź
+// buses. ZDiT is the sheet's home network and keeps its numbers bare; a guest
+// operator takes the prefix wherever its number is already spoken for.
+const FEED_DIRS = [['zdit', 'data/gtfs'], ['mzk', 'data/gtfs-pabianice'], ['muk', 'data/gtfs-zgierz']];
+const numOwners = new Map();
+for (const [tag, dir] of FEED_DIRS) {
+  if (!existsSync(join(ROOT, dir, 'routes.txt'))) continue;
+  for (const r of await readCsv(join(ROOT, dir, 'routes.txt'))) {
+    if (!['0', '3'].includes((r.route_type || '').trim()) || skipTechnical(r)) continue;
+    const sn = (r.route_short_name || '').trim();
+    if (!sn) continue;
+    if (!numOwners.has(sn)) numOwners.set(sn, new Set());
+    numOwners.get(sn).add(tag);
+  }
+}
+const lineKey = (tag) => (sn) => {
+  if (!sn) return null;
+  const owners = numOwners.get(sn);
+  const k = (tag !== 'zdit' && owners && owners.size > 1) ? `${tag}:${sn}` : sn;
+  if (k !== sn) LBL.set(k, sn);
+  LINE_OP.set(k, tag);
+  return k;
+};
+const tramKey = lineKey('zdit');
 const MODES = [{
   mode: 'bus', label: 'buses', osmFile: 'data/osm/lodz.json',
   graphMode: 'road', color: '#0059a9', colorDark: '#00294f',
   all: busAll, lines: busList.length ? busList : (busAll ? [] : ['58A']),
   feeds: [
-    { tag: 'zdit', dir: 'data/gtfs', mapKey: (sn) => sn, routeTypes: ['3'], skipRoute: skipTechnical },
+    { tag: 'zdit', dir: 'data/gtfs', mapKey: lineKey('zdit'), routeTypes: ['3'], skipRoute: skipTechnical },
+    // MZK Pabianice — the operator's own GTFS (gtfs.mzkpabianice.pl, listed on
+    // odt.org.pl): the town's 1–7, the county lines 260–265 to Górka
+    // Pabianicka and Piątkowisko, the T to Rzgów and the A41, which is what
+    // runs where the tram to Pabianice used to.
+    { tag: 'mzk', dir: 'data/gtfs-pabianice', mapKey: lineKey('mzk'), routeTypes: ['3'] },
+    // MUK Zgierz — no GTFS exists anywhere, so pipeline/zgierz-gtfs.py builds
+    // one out of the city's timetable site (stop sequences, running times and
+    // departures; the poles geocoded against OSM). No shapes: the stop
+    // sequence is the observation.
+    { tag: 'muk', dir: 'data/gtfs-zgierz', mapKey: lineKey('muk'), routeTypes: ['3'] },
   ],
 }];
 const tramAll = tramLines.length === 1 && tramLines[0] === 'all';
@@ -160,7 +212,7 @@ if (tramAll || tramLines.length) MODES.push({
   color: '#d6212b', colorDark: '#7c1116',
   all: tramAll, lines: tramAll ? [] : tramLines,
   feeds: [
-    { tag: 'zdit', dir: 'data/gtfs', mapKey: (sn) => sn, routeTypes: ['0'], skipRoute: skipTechnical },
+    { tag: 'zdit', dir: 'data/gtfs', mapKey: tramKey, routeTypes: ['0'], skipRoute: skipTechnical },
   ],
 });
 
@@ -1706,6 +1758,30 @@ for (const f of routeFeatures) for (const [lon, lat] of f.geometry.coordinates) 
   if (lat < bLatMin) bLatMin = lat; if (lat > bLatMax) bLatMax = lat;
 }
 
+// ---------- display labels ----------
+// The keys keep their operator prefixes; every string the map PRINTS loses
+// them. Two keys can now print the same number — that is the point, because
+// the two streets print the same number — so each label group is deduplicated
+// on its own.
+const relabel = (s) => {
+  const out = [];
+  for (const k of s.split(', ')) {
+    const v = LBL.get(k) ?? k;
+    if (!out.includes(v)) out.push(v);
+  }
+  return out.join(', ');
+};
+for (const features of [routeFeatures, streetFeatures, labelFeatures, stopFeatures, badgeFeatures]) {
+  for (const f of features) {
+    const p = f.properties;
+    for (const k of ['lines', 'busLines', 'tLines', 'ntLines', 'mLines', 'nmLines']) {
+      if (typeof p[k] === 'string' && p[k]) p[k] = relabel(p[k]);
+    }
+    if (typeof p.line === 'string' && LBL.has(p.line)) p.lbl = LBL.get(p.line);
+  }
+}
+log(`Display labels: ${LBL.size} keys print the number the operator signs`);
+
 const outDir = join(ROOT, 'data/out');
 mkdirSync(outDir, { recursive: true });
 const fc = (features) => JSON.stringify({ type: 'FeatureCollection', features });
@@ -1721,7 +1797,13 @@ writeFileSync(join(outDir, 'meta.json'), JSON.stringify({
   bbox: [bLonMin, bLatMin, bLonMax, bLatMax],
   badgeBands: BADGE_BANDS,
   modes: MODES.map((m) => ({ mode: m.mode, label: m.label, color: m.color })),
-  lines: metaLines.map((l) => ({ ...l, rank: lineRank(l.line) })),
+  // the panel groups its chips by operator (the Berlin/Randstad panel)
+  ops: OP_NAME,
+  lines: metaLines.map((l) => ({
+    ...(LBL.has(l.line) ? { ...l, label: LBL.get(l.line) } : l),
+    op: LINE_OP.get(l.line) || 'zdit',
+    rank: lineRank(l.line),
+  })),
 }, null, 2));
 log(`Wrote data/out/{route,streets,labels,street-names,stops,badges,gtfs-shape}.geojson + meta.json`);
 

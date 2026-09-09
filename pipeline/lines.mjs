@@ -49,7 +49,7 @@ const keyParts = (s) => { const m = /^(\D*)(\d*)(.*)$/.exec(s); return [m[1], m[
 // the rows print night lines last, as the panel and the badges do
 const META_RANK = new Map((JSON.parse(readFileSync(join(OUT, 'meta.json'), 'utf8')).lines || []).map((l) => [l.line, l.rank ?? 1]));
 const rankOf = (k) => META_RANK.get(k) ?? 1;
-const numSort = (a, b) => { const A = keyParts(a), B = keyParts(b); return rankOf(a) - rankOf(b) || A[0].localeCompare(B[0]) || (A[1] - B[1]) || A[2].localeCompare(B[2]); };
+const numSort = (a, b) => { const A = keyParts(disp(a)), B = keyParts(disp(b)); return rankOf(a) - rankOf(b) || A[0].localeCompare(B[0]) || (A[1] - B[1]) || A[2].localeCompare(B[2]); };
 
 // ---------- colour: CIE-Lab, so "different enough" is a measurable distance ----------
 function lab2rgb(L, a, b) {
@@ -92,6 +92,12 @@ for (const L of (BIG ? [32, 44, 56, 66] : [38, 51, 63])) for (let h = 0; h < 360
 const streets = JSON.parse(readFileSync(join(OUT, 'streets.geojson'), 'utf8'));
 const rawLabels = JSON.parse(readFileSync(join(OUT, 'labels.geojson'), 'utf8'));
 const meta = JSON.parse(readFileSync(join(OUT, 'meta.json'), 'utf8'));
+// Display labels: build.mjs writes the number the operator signs beside every
+// key that had to carry a pipeline-only operator prefix. The Lines view prints
+// numbers too, so it reads the same table — the keys keep driving colour and
+// selection, only the printed text changes.
+const LBL = new Map((meta.lines || []).filter((l) => l.label).map((l) => [l.line, l.label]));
+const disp = (l) => LBL.get(l) ?? l;
 
 // ---------- 1. chains: weld runs with the same line set through their nodes ----------
 // build.mjs cuts a roadway wherever the line set changes, so a single avenue
@@ -647,7 +653,7 @@ log(`${swings} slot handovers smoothed at junctions, ${funnels} of them funnelli
 // instead of disappearing into the grey.
 const corridorF = chains.filter((c) => c.n > MAX_SEPARATE).map((c) => ({
   type: 'Feature',
-  properties: { mode: c.mode, n: c.n, arr: c.arr, lines: c.arr.join(', ') },
+  properties: { mode: c.mode, n: c.n, arr: c.arr, lines: c.arr.map(disp).join(', ') },
   geometry: { type: 'LineString', coordinates: c.sm.map(toDeg) },
 }));
 log(`${corridorF.length} grey trunks (widest carries ${Math.max(...corridorF.map((f) => f.properties.n))} lines)`);
@@ -678,7 +684,7 @@ for (const f of rawLabels.features) {
   list.forEach((l, i) => {
     // the separator travels INSIDE the section, so the row still wraps at the
     // spaces exactly the way a plain string one did
-    props['l' + i] = l + (i < list.length - 1 ? ', ' : '');
+    props['l' + i] = disp(l) + (i < list.length - 1 ? ', ' : '');
     props['c' + i] = (colour.get(l) || { hex: '#41464e' }).hex;
   });
   rowF.push({ type: 'Feature', properties: props, geometry: f.geometry });
@@ -717,9 +723,9 @@ for (const f of rawLabels.features) {
     let ang = Math.atan2(at.b[0] - at.a[0], at.b[1] - at.a[1]) * 180 / Math.PI - 90;
     while (ang > 90) ang -= 180;
     while (ang < -90) ang += 180;
-    const props = { lines: c.arr.join(', '), arr: c.arr, mode: c.mode, angle: Math.round(ang * 10) / 10 };
+    const props = { lines: c.arr.map(disp).join(', '), arr: c.arr, mode: c.mode, angle: Math.round(ang * 10) / 10 };
     c.arr.forEach((l, i) => {
-      props['l' + i] = l + (i < c.arr.length - 1 ? ', ' : '');
+      props['l' + i] = disp(l) + (i < c.arr.length - 1 ? ', ' : '');
       props['c' + i] = (colour.get(l) || { hex: '#41464e' }).hex;
     });
     rowF.push({ type: 'Feature', properties: props, geometry: { type: 'Point', coordinates: toDeg(at.p) } });
